@@ -1,0 +1,78 @@
+/* 
+---------------------------------------------
+faq
+--------------------------------------------- 
+*/
+
+.faq {
+
+	.card {
+		border: none;
+		background: none;
+	    background: #FFFFFF;
+	    border: 1px solid #DFE1F8;
+	    margin-bottom: 20px;
+
+		.card-header {
+			padding: 0px;
+			border: none;
+			background: none;
+			padding-left: 30px;
+			padding-right: 30px;
+			@include transition(.3s);
+
+			.faq-title {
+				width: 100%;
+				text-align: left;
+				padding: 0px;
+				@include font($normal, 15px);
+				letter-spacing: 1px;
+				color: $primaryColor;
+				text-decoration: none !important;
+				@include transition(.3s);
+				cursor: pointer;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				margin-bottom: 0px !important;
+			}
+		}
+
+		.card-body {
+			padding: 30px;
+			padding-bottom: 6px;
+			padding-top: 0px;
+			@include font($normal, 16px);
+			color: $textDark;
+			line-height: 28px;
+			letter-spacing: 1px;
+
+			.content {
+				border-top: 1px solid #EDEEFD;
+				padding-top: 20px;
+			}
+
+			p {
+				margin-bottom: 14px;
+				font-size: 14px !important;
+				line-height: 26px !important;
+				letter-spacing: 0.88px !important;
+			}
+		}
+	}
+}
+
+
+@media (max-width : 991px) {
+	.faq {
+		margin-bottom: 0px;
+		
+		.card {
+			.card-header {
+				.faq-title {
+					line-height: 26px;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}

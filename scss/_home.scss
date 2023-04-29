@@ -1,0 +1,453 @@
+/* 
+---------------------------------------------
+home
+--------------------------------------------- 
+*/
+
+.home-services-item {
+	display: block;
+	background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+	box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+	@include font($normal, 14px);
+	color: $textDark;
+	line-height: 26px;
+	letter-spacing: 0.88px;
+	padding: 30px;
+	@include radius(5px);
+	margin-bottom: 30px;
+	position: relative;
+	text-align: center;
+
+	&.box {
+		border-radius: 5px !important;
+
+		&:before {
+			border-radius: 5px !important;
+		}
+	}
+
+	&:before {
+		content: '';
+		@include radius(5px);	
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: red;
+		top: 0px;
+		left: 0px;
+		z-index: 1;
+		background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+		opacity: 0;
+		@include transition(.3s);
+	}
+
+	&:hover, &.active {
+		color: $textLight;
+
+		&:before {
+			opacity: 1;
+		}
+
+		.services-title {
+			color: #fff;
+		}
+
+		i {
+			background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+		}
+	}
+
+	.services-title {
+		@include font($semi, 16px);
+		line-height: 26px;
+		color: $headingDark;
+		margin-bottom: 10px !important;
+		letter-spacing: 0.7px;
+		@include transition(.3s);
+		position: relative;
+		z-index: 2;
+	}
+
+	i {
+		font-size: 26px;
+		margin-bottom: 23px;
+		background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		@include transition(.3s);
+		position: relative;
+		z-index: 2;
+	}
+
+	p {
+		position: relative;
+		z-index: 2;
+		@include transition(.3s);
+		margin-bottom: 0px !important;
+	}
+
+	.btn-white-line {
+		position: relative;
+		z-index: 2;
+		width: 100%;
+	}
+}
+
+.features {
+
+	li {
+		overflow: hidden;
+		padding-bottom: 30px;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			width: 8px;
+			height: 100%;
+			background: #EDEEFD;
+			left: 30px;
+			top: 67px;
+		}
+
+		&:last-child {
+			padding-bottom: 0px;
+
+			&:before {
+				display: none;
+			}
+		}
+
+		&.active, &:hover {
+			.count {
+				span {
+					background: $secondaryColor;
+				}
+			}
+		}
+
+		.count {
+			float: left;
+			width: 68px;
+			min-height: 150px;
+
+			span {
+				display: block;
+				width: 67px;
+				height: 67px;
+				line-height: 67px;
+				text-align: center;
+				@include radius(5px);
+				margin: auto;
+				background: $primaryColor;
+				font-size: 24px;
+				color: #fff;
+				@include transition(.3s);
+			}
+		}
+
+		.text {
+			float: left;
+			width: calc(100% - 68px);
+			width: -webkit-calc(100% - 68px);
+			padding-left: 20px;
+
+			.title {
+				@include font($semi, 16px);
+				line-height: 28px;
+				letter-spacing: 1px;
+				color: $headingDark;
+				margin-top: 5px;
+				margin-bottom: 10px !important;
+			}
+
+			p {
+				@include font($normal, 16px);
+				color: $textDark;
+				letter-spacing: 1px;
+				line-height: 28px;
+			}
+		}
+	}
+}
+
+.team-item {
+	background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+	box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+	@include radius(5px);
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+
+	&:before {
+		content: '';
+		@include radius(5px);		
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		z-index: 1;
+		background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+		opacity: 0;
+		@include transition(.3s);
+	}
+
+	&:hover, &.active {
+		&:before {
+			opacity: 1;
+		}
+
+		.header {
+			.info {
+				strong {
+					color: #fff;
+				}
+
+				.social {
+					li {
+						a {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		span {
+			background: #fff;
+		}
+
+		.body {
+			color: $textLight;
+		}
+	}
+
+	.header {
+		overflow: hidden;
+		margin-bottom: 20px;
+		position: relative;
+		z-index: 2;
+		padding: 20px;
+		padding-bottom: 0px;
+
+		.img {
+			float: left;
+			width: 76px;
+			margin-right: 10px;
+			overflow: hidden;
+			@include radius(5px);
+			position: relative;
+
+			&:before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0px;
+				left: 0px;
+				background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+				opacity: .15;
+			}
+		}
+
+		.info {
+			margin-top: 16px;
+			float: left;
+
+			strong {
+				display: block;
+				@include font($semi, 14px);
+				color: $headingDark;
+				letter-spacing: 0.6px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				margin-left: 5px;
+				@include transition(.3s);
+			}
+
+			.social {
+				position: relative;
+				overflow: hidden;
+				text-align: center;
+				@include radius(3px);
+				z-index: 2;
+				font-size: 14px;
+
+				li {
+					display: inline-block;
+					height: 28px;
+					line-height: 28px;
+					margin-left: 5px;
+					margin-right: 5px;
+
+					&:first-child {
+						margin-left: 0px;
+					}
+
+					a {
+						color: $primaryColor;
+						@include transition(.3s);
+					}
+				}
+			}
+		}
+	}
+
+	span {
+		display: block;
+		@include font($normal, 12px);
+		color: $textDark;
+		letter-spacing: 0.52px;
+		height: 28px;
+		background: #F0F1FF;
+		@include transition(.3s);
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		line-height: 28px;
+		text-align: center;
+		@include radius(3px);
+		position: relative;
+		z-index: 2;
+	}
+
+	.body {
+		@include font($normal, 14px);
+		line-height: 26px;
+		color: $textDark;
+		letter-spacing: 0.6px;
+		position: relative;
+		z-index: 2;
+		@include transition(.3s);
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
+
+.parallax {
+	min-height: 300px;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: .90;
+		background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+		z-index: 2;
+	}
+
+	.parallax-content {
+		position: relative;
+		z-index: 3;
+
+		.count-item {
+			height: 300px;
+			position: relative;
+			overflow: hidden;
+
+			strong {
+				display: block;
+				text-align: center;
+				@include font($normal, 40px);
+				letter-spacing: 1.72px;
+				margin-bottom: 0px;
+				color: #fff;
+				margin-top: 85px;
+				@include transition(.3s);
+			}
+
+			span {
+				display: block;
+				text-align: center;
+				color: #fff;
+				@include font($normal, 20px);
+				letter-spacing: 0.86px
+			}
+		}
+
+		.info {
+			text-align: center;
+			@include font($normal, 22px);
+			color: #fff;
+
+			p {
+				letter-spacing: 1px;
+				margin-top: 95px;
+				margin-bottom: 30px;
+				font-size: 20px;
+
+				span {
+					text-decoration: underline;
+				}
+			}
+
+			.btn-secondary {
+				margin: auto;
+			}
+		}
+	}
+}
+
+@media (max-width : 991px) {
+	.home-services-item {
+		&.mtop-70 {
+			margin-top: 30px !important;
+		}
+	}
+
+	.services-section {
+		margin-top: 0px !important;
+	}
+
+	.team-item {
+		cursor: pointer;
+	}
+
+	.parallax {
+		
+		.parallax-content {
+			padding-top: 70px;
+			padding-bottom: 70px;
+
+			.count-item {
+				height: auto;
+				padding-top: 30px;
+				padding-bottom: 30px;
+
+				&:before {
+					display: none;
+				}
+
+				&:after {
+					display: none;
+				}
+
+				strong {
+					margin-top: 0px;
+				}
+			}
+
+			.info {
+
+				p {
+					letter-spacing: 1px;
+					margin-top: 30px;
+					margin-bottom: 60px;
+
+					span {
+						text-decoration: underline;
+					}
+				}
+
+				.btn-white-line {
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}

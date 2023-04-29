@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:v_2.0" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c9b058b-a05b-4613-8aa9-a1286980623a" name="Default Changelist" comment="Added blog">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hj86kHHxEiAQxJSQ4Ywvzox4LL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html" />
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html\services\all-services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html\services" />
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html\services\all-services\legal-firm-app-development" />
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html\services\all-services\law-firm-app-development" />
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html" />
+      <recent name="E:\Multiverse_Projects\Multiverse Website\html\assets\images\icons\apps" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c9b058b-a05b-4613-8aa9-a1286980623a" name="Default Changelist" comment="" />
+      <created>1600512968020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600512968020</updated>
+      <workItem from="1600512969440" duration="1851000" />
+      <workItem from="1600514849620" duration="1939000" />
+      <workItem from="1600517517295" duration="1210000" />
+      <workItem from="1600572096014" duration="491000" />
+      <workItem from="1600580436108" duration="491000" />
+      <workItem from="1600794577220" duration="1735000" />
+      <workItem from="1600796563073" duration="1776000" />
+      <workItem from="1600798501262" duration="1959000" />
+      <workItem from="1600800619041" duration="1095000" />
+      <workItem from="1600963889918" duration="745000" />
+      <workItem from="1601102303782" duration="233000" />
+      <workItem from="1601113868123" duration="1008000" />
+      <workItem from="1601123713960" duration="856000" />
+      <workItem from="1601131254215" duration="26000" />
+      <workItem from="1601136086211" duration="1693000" />
+      <workItem from="1601138451153" duration="1585000" />
+      <workItem from="1601140381413" duration="1788000" />
+      <workItem from="1601142229205" duration="1781000" />
+      <workItem from="1601144060463" duration="887000" />
+      <workItem from="1601196184894" duration="392000" />
+      <workItem from="1601197136227" duration="373000" />
+      <workItem from="1601213483221" duration="1182000" />
+      <workItem from="1601215210264" duration="390000" />
+      <workItem from="1601215731420" duration="3000" />
+      <workItem from="1601216230369" duration="1333000" />
+      <workItem from="1601282562981" duration="1413000" />
+      <workItem from="1601716527797" duration="1943000" />
+      <workItem from="1601718504485" duration="890000" />
+      <workItem from="1601999383631" duration="441000" />
+      <workItem from="1602000248626" duration="853000" />
+      <workItem from="1602396107029" duration="568000" />
+      <workItem from="1602570703247" duration="591000" />
+      <workItem from="1602735056661" duration="380000" />
+      <workItem from="1603372982927" duration="1735000" />
+      <workItem from="1603374755638" duration="890000" />
+      <workItem from="1603375958258" duration="1446000" />
+      <workItem from="1603380662269" duration="1740000" />
+      <workItem from="1603382497456" duration="903000" />
+      <workItem from="1603457307188" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="v_2.0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="840" y="1374" width="808" height="530" key="Vcs.Push.Dialog.v2" timestamp="1626031850688">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="840" y="1374" width="808" height="530" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/1032.0.2560.1080@0.1080.1920.1080" timestamp="1626031850688" />
+  </component>
+</project>

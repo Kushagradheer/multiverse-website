@@ -1,0 +1,283 @@
+/* 
+---------------------------------------------
+welcome area
+--------------------------------------------- 
+*/
+
+.welcome-area-1 {
+	position: relative;
+	min-height: 750px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../images/header-bg-1.svg) top right no-repeat;
+
+	&.full {
+		min-height: 650px;
+	}
+
+	&.full-bottom {
+		min-height: 700px;
+	}
+
+	.welcome-bottom {
+		position: absolute;
+		width: 100%;
+		top: 0px;
+
+		.image-content {
+			left: 0px;
+			width: 47%;
+			border-radius: 0 0 100px 0;
+			overflow: hidden;
+			height: 750px;
+			position: absolute;
+			z-index: 1;
+
+			&.full {
+				width: 100%;
+				height: 650px;
+				border-radius: 0px;
+			}
+
+			&.full-bottom {
+				width: 100%;
+				height: 700px;
+				border-radius: 0px;
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+				opacity: .90;
+				z-index: 2;
+			}
+		}
+
+		.bg {
+			position: relative;
+			z-index: 2;
+			height: 700px;
+
+			img {
+				position: absolute;
+				bottom: -1px;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.slider-position {
+			right: 0px;
+			width: 65%;
+			z-index: 2;
+			position: absolute;
+			height: 800px;
+		}
+	}
+
+	.welcome-top {
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+
+		.text-content {
+			padding-top: 20px;
+			
+			h1 {
+				@include font($normal, 32px);
+				color: #fff;
+				letter-spacing: 0.7px;
+				line-height: 44px;
+			}
+
+			p {
+				@include font($normal, 16px);
+				color: $textLight;
+				letter-spacing: 0.53px;
+				line-height: 28px;
+				margin-bottom: 40px;
+			}
+		}
+
+		.slider-wrapper {
+			position: absolute;
+			top: 0px;
+			padding-left: 70px;
+
+			.owl-carousel {
+				.owl-stage-outer {
+					padding-top: 40px;
+					padding-bottom: 40px;
+				}
+			}
+
+			.base {
+				position: absolute;
+				width: 60%;
+				height: 213px;
+				left: 0px;
+				bottom: 40px;
+				background: #fff;
+				box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+				@include radius(5px);
+
+				.prev {
+					position: absolute;
+					right: 70px;
+					bottom: 33px;
+					font-size: 40px;
+					line-height: 40px;
+					cursor: pointer;
+					z-index: 999;
+					color: $headingDark;
+				}
+				.next {
+					position: absolute;
+					right: 30px;
+					bottom: 33px;
+					font-size: 40px;
+					line-height: 40px;
+					cursor: pointer;
+					z-index: 999;
+					color: $headingDark;
+				}
+			}
+
+			.owl-carousel {
+				position: relative;
+				z-index: 2;
+
+				.item {
+
+					.header {
+						@include radius(5px);
+						padding-top: 16px;
+						padding-bottom: 16px;
+						box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+						background: #fff;
+
+						.img {
+							text-align: center;
+							margin-bottom: 16px;
+
+							img {
+								width: auto;
+								display: inline;
+							}
+						}
+
+						.content {
+							text-align: center;
+
+							h5 {
+								@include font($semi, 16px);
+								letter-spacing: 0.53px;
+								margin-bottom: 12px !important;
+							}
+
+							.stars {
+								overflow: hidden;
+								text-align: center;
+				
+								li {
+									display: inline;
+									margin-right: 1px;
+									font-size: 12px;
+									height: 14px;
+									line-height: 14px;
+									color: $textDark;
+				
+									i {
+										color: #CDDEFF;
+										font-size: 14px;
+										height: 14px;
+										line-height: 14px;
+
+										&.active {
+											color: $primaryColor;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					.text {
+						visibility: hidden;
+						opacity: 0;
+						transition:visibility 0.3s linear,opacity 0.3s linear;
+						@include font($normal, 14px);
+						color: $textDark;
+						letter-spacing: 0.88px;
+						line-height: 26px;
+						padding-top: 25px;
+					}
+				}
+
+				.firstActiveItem {
+					.text {
+						visibility: visible;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width : 991px) {
+	.welcome-area-1 {
+		margin-top: 80px;
+		height: 900px;
+
+		&.full {
+			height: 900px;
+		}
+		
+		&.full-bottom {
+			height: 900px;
+			margin-bottom: 100px;
+		}
+		
+		.welcome-bottom {
+			.image-content {
+				width: 100%;
+				height: 900px;
+
+				&.full {
+					height: 900px;
+				}
+
+				&.full-bottom {
+					height: 900px;
+				}
+			}
+
+			.bg {
+				display: none;
+			}
+		}
+
+		.welcome-top {
+			.text-content {
+				h1 {
+					font-size: 28px;
+				}
+			}
+
+			.slider-position {
+				margin-bottom: 30px;
+			}
+
+			.slider-wrapper {
+				.base {
+					width: 95%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meditation and Breathing App </title>
+    <meta name="author" content="Praharsh Bhatt">
+    <meta name="description" content="Meditation App UI case study" />
+    <meta name="keywords"
+        content="multiverse, multiverse app, multiverse software, mobile app developer, app developer, app developer in usa, android developer, Flutter, AI, mobile app, meditation app, breathing app, android meditation, headspace" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../assets/images/favicon.png" />
+    <link rel="canonical" href="https://multiverseapp.com/articles/meditation-app-ui-case-study/meditation-app-ui-case-study.html" />
+    <!-- Bootstrap & Plugins CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <!--
+        Hotjar Tracking Code for https://multiverseapp.com
+        Paste the Hotjar code into the <head> of every page you wish to track visitors and collect feedback on, and then verify your installation.
+    -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = { hjid: 1977338, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <!--
+        collect.chat chatbot script
+    -->
+    <script async>(function (w, d) {
+            w.CollectId = "5f54662bf97dde4f05ac5af1";
+            var h = d.head || d.getElementsByTagName("head")[0];
+            var s = d.createElement("script");
+            s.setAttribute("type", "text/javascript");
+            s.setAttribute("src", "https://collectcdn.com/launcher.js");
+            h.appendChild(s);
+        })(window, document);
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7YMZPDZJQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z7YMZPDZJQ');
+    </script>
+</head>
+
+
+<body>
+
+    <!-- GetButton.io widget (https://getbutton.io/)-->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+919106824401", // WhatsApp number
+                call: "+919106824401", // Call phone number
+                call_to_action: "Message us!", // Call to action
+                button_color: "#A8CE50", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,call", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /GetButton.io widget -->
+
+    <!-- ***** Preloader Start ***** -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-white header-sticky">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="../../index.html" class="logo">
+                            <img src="../../assets/images/logo.png" class="light-logo" alt="Multiverse Software" />
+                            <img src="../../assets/images/logo.png" class="dark-logo" alt="Multiverse Software" />
+                        </a>
+                        <!-- ***** Logo End ***** -->
+
+
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="../../index.html">HOME</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">OUR APPS</a>
+                                <ul>
+                                    <li><a href="../../our-apps.html">Our Apps</a></li>
+                                    <li><a href="../../client-apps.html">Client Apps</a></li>
+                                    <li><a href="../../ready-to-sell.html">Ready to Sell Code</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../../services.html">SERVICES</a></li>
+                            <li><a href="../../blog.html">BLOG</a></li>
+                            <li><a href="../../about-us.html">ABOUT US</a></li>
+                            <li><a href="../../contact.html">CONTACT</a></li>
+                        </ul>
+                        <a class="menu-trigger">
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <section class="page">
+        <!-- ***** Page Top Start ***** -->
+        <div class="cover" data-image="../../assets/images/photos/parallax.jpg">
+            <div class="page-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Tempo’s Meditation App- UX Case Study</h1>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <ol class="breadcrumb">
+                                <li><a href="../../index.html">Home</a></li>
+                                <li><a href="../../blog.html">Blog</a></li>
+                                <!-- <li class="active">Blog Single</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Page Top End ***** -->
+
+
+        <!-- ***** Page Content Start ***** -->
+        <div class="page-bottom pbottom-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="blog-post-thumb big mbottom-60">
+                                    <!-- ***** Post Top Start ***** -->
+                                    <video width="100%x" controls>
+                                        <source src="videos/breathing-app.mp4" type="video/mp4">
+                                        <div class="img">
+                                            <img src="images/tempo_guided_breathing_default_user_created_breathing_patterns.webp"
+                                                alt="Meditation App UX Case study">
+                                        </div>
+                                    </video>
+                                    <!-- ***** Post Top End ***** -->
+
+                                    <div class="post-content full">
+
+                                        <!-- ***** Post Content Start ***** -->
+                                        <div class="text post-detail">
+
+                                            <h1>Tempo Meditation and Breathing App Case study</h1>
+
+                                            In this case study, I’m going to talk about my process of how I designed
+                                            Tempo’s website from scratch. I will share my process, design decisions, and
+                                            approach towards the design.<br /><br />
+
+                                            <h2>Overview</h2>
+                                            <p>The inception of this project began a month ago when our client, who is
+                                                also a practising pharmacist in the United Kingdom,
+                                                reached out to us with his idea of mindfulness and breathing
+                                                application, we were more than excited to lay our hands in the process.
+                                                His main purpose was to allow users to breathe effectively because he
+                                                believes and has been proven that the way we breathe affects our mental
+                                                and physical health.
+
+                                                He not only came up with the idea but he also had some of the detailed
+                                                sketches of the concept and how he wanted the design of the application
+                                                to be.
+                                            </p>
+
+
+
+                                            <img src="images/meditation_ui_case_study_client_requriment_1.webp"
+                                                style="width:45%; margin: 10.00px" />
+                                            <img src="images/meditation_ui_case_study_client_requriment_2.webp"
+                                                style="width:45%; margin: 10.00px" />
+                                            <img src="images/meditation_ui_case_study_client_requriment_3.webp"
+                                                style="width:45%; margin: 10.00px" />
+                                            <img src="images/meditation_ui_case_study_client_requriment_4.webp"
+                                                style="width:45%; margin: 10.00px" />
+                                            <img src="images/meditation_ui_case_study_client_requriment_5.webp"
+                                                style="width:45%; margin: 10.00px" />
+                                            <img src="images/meditation_ui_case_study_client_requriment_6.webp"
+                                                style="width:45%; margin: 10.00px" />
+
+                                            <p>According to the stats, alone in the US, around 15.27 million people
+                                                suffer from depression every year and more than 300 million people
+                                                worldwide as per a renowned report. While more than twice of those
+                                                numbers showed up for anxiety.
+                                            </p>
+
+
+                                            <p>The constant technological distraction and changing lifestyles have
+                                                destroyed our ability to focus on something for a longer period of time.
+                                                Now, more than ever before, is high-time to do something about our
+                                                mental health and physical wellness and that’s where our application
+                                                with its guided breathing technique - Tempo fits in.
+                                            </p>
+
+
+                                            <strong>Basics</strong>
+                                            Before we start, let’s see what it took:
+                                            <ul>
+                                                <li>Time : 15-20 days</li>
+                                                <li>Tools : Adobe XD, Figma, Canva</li>
+                                            </ul>
+                                            </br>
+
+
+                                            <strong>The Problem and the Motivation:</strong>
+
+
+                                            <p>Breathing is such an essential part of our lives that it's possible that
+                                                many of us overlook it. We can have conscious control of it when we are
+                                                talking or singing. It is also, thankfully, automatically controlled
+                                                such as when we are sleeping or when we are concentrating on other
+                                                things.
+                                            </p>
+
+
+                                            <p>While it is obviously essential to breathe regularly, the way you breathe
+                                                is also important and can have a direct effect on your mental and
+                                                physical state. Good breathing involves inflating the lungs as fully as
+                                                is possible and in a controlled, rhythmical way. Breathing is like many
+                                                actions we perform, there's a good way to breathe but there are also
+                                                less efficient ways.
+                                            </p>
+                                            <p>The main goal for us, at Multiverse Software, was to:</p>
+                                            <ul>
+                                                <ol>Introduce users to a new way of Breathing</ol>
+                                                <ol>Multiple Breathing patterns to choose from</ol>
+                                                <ol>Ability to upload your own breathing patterns</ol>
+                                                <ol>Form a strong community</ol>
+                                                <ol>Helping Vibrations, voice-over and background music</ol>
+                                            </ul>
+                                            </br>
+
+
+
+                                            <h2>Goal</h2>
+                                            Our main goal was to create an app with the following traits:
+                                            <ul>
+                                                <ol>Allows the user to use personalized curated breathing patterns.</ol>
+                                                <ol>Allows the user to create and use customized breathing patterns.
+                                                </ol>
+                                                <ol>Keeps the user engaged for a longer period without distraction.</ol>
+                                            </ul>
+                                            </br>
+
+                                            <h2>Design Process</h2>
+                                            <p>When starting on a project, I usually use the Design Process to make my
+                                                designs be as consistent as possible. The UX design process can be
+                                                divided into four key phases: User Research, Define & Analysis, Strategy
+                                                and Design.
+                                                <img src="images/design_process_tempo_breathing_app.webp"
+                                                    style="width:45%; margin: 10.00px" />
+                                            </p>
+                                            </br>
+
+                                            <h2>The Concept</h2>
+                                            <p>We did not just want to provide guided breathing techniques to our users
+                                                but also let them know that we care as Tempo provides the user with a
+                                                platform to form a breathing community. This breathing application has
+                                                numerous guided breathing techniques which are very well thought and
+                                                curated according to different needs of the user. The “Build Your
+                                                Community” part allows the users to upload their customized breathing
+                                                patterns which they themselves or other people might want to use.
+                                            </p>
+                                            </br>
+
+
+                                            <h2>Competitive Analysis</h2>
+                                            <p>During our research, we observed that, while many mindfulness
+                                                applications available on the internet help users with breathing
+                                                patterns, the breaths are very generalized, it is assumed that everyone
+                                                is using the app with the same state of mind.
+                                            </p>
+
+                                            <ul>
+                                                <ol>We decided to break this generic pattern, so this is how we stand
+                                                    out:</ol>
+                                                <ol>Well thought breathing patterns for every individual like
+                                                    Anti-anxiety and Energise to name a few.</ol>
+                                                <ol>Create customizable breathing patterns.</ol>
+                                                <ol>Make and use the breaths made by the community.</ol>
+                                                <ol>Create your own strong breathing community. </ol>
+                                                <ol>Calm and soothing themes and animations.</ol>
+                                                <ol>Perfectly synced breaths with customizable vibrations and
+                                                    voice-overs.
+                                                </ol>
+                                                <ol>Also, every feature is free.
+                                                </ol>
+                                            </ul>
+                                            </br>
+
+                                            <h2>Competitors</h2>
+                                            <p>Mostly Calm and Oak stole the show for both platforms, with over a
+                                                million users each. Most Importantly, they did a few things, if not
+                                                none, wrong. Calm had been Editor’s choice, and the most popular
+                                                Meditation app on Android.
+                                                <img src="images/competitors_tempo_breathing_app.webp"
+                                                    style="width:45%; margin: 10.00px" />
+                                            </p>
+                                            </br>
+
+                                            <p>
+                                                Mostly, Calm and Oak stole the show for both platforms, with over a
+                                                million
+                                                users each. Most Importantly, they did a few things, if not none, wrong.
+                                                Calm had been Editor’s choice, and the most popular Meditation app on
+                                                Android.
+
+                                                <img src="images/breathing_apps_competitor_review_1.webp"
+                                                    style="width:45%; margin: 10.00px" />
+                                                <img src="images/breathing_apps_competitor_review_2.webp"
+                                                    style="width:45%; margin: 10.00px" />
+                                                <img src="images/breathing_apps_competitor_review_3.webp"
+                                                    style="width:45%; margin: 10.00px" />
+                                            </p>
+
+                                            <p>
+                                                If you have read the book Blue Ocean Strategy, you must be familiar with
+                                                the
+                                                concept of red and blue oceans. Renée Mauborgne explains that if you are
+                                                competing with mammoth companies, the best strategy is to create a whole
+                                                new
+                                                market for your product, which instead of competing with the former
+                                                products, complements them.
+                                            </p>
+
+
+                                            <p>Our goal was not to compete with apps like Oak or Calm, rather make a
+                                                whole
+                                                new product that delivers a great user experience without getting
+                                                bombarded
+                                                with hundreds of ads, or continuously bottlenecked by your free plan.
+                                                Need to add some buttons? here they are!</br></br>
+                                            </p>
+
+
+                                            <h2>Insights</h2>
+                                            <p>We did kinds of research about other apps and we found that people do not
+                                                really enjoy using the apps because the billing is overpriced and
+                                                without notification just charged into their CC.
+                                                </br>
+
+                                                <img src="images/breathing_apps_competitor_review_4.webp"
+                                                    style="width:90%; margin: 10.00px" />
+                                                <img src="images/breathing_apps_competitor_review_5.webp"
+                                                    style="width:90%; margin: 10.00px" />
+                                                </br>
+
+                                                In addition, the user does not feel comfortable with the meditation
+                                                options provided and even makes the user more stressed.
+                                                </br>
+
+                                                <img src="images/breathing_apps_competitor_review_6.webp"
+                                                    style="width:90%; margin: 10.00px" />
+                                                </br>
+
+                                                And there are users who feel that this application lacks the auto sleep
+                                                feature so that the user has to turn it off even though he is very
+                                                sleepy.
+                                                </br>
+                                                <img src="images/breathing_apps_competitor_review_7.webp"
+                                                    style="width:90%; margin: 10.00px" />
+                                                </br>
+
+                                                “The weakness of an enemy forms part of your own strength.” This gave us
+                                                insights to the most occurring problems in meditation apps at present.
+                                            </p>
+                                            </br>
+
+                                            <p>From several reviews from other apps, we got some inspiration on what we
+                                                should implement and in our apps such us every feature is free,
+                                                Perfectly synced breaths with customizable vibrations and voice-overs,
+                                                and Create customizable breathing patterns based on your preferences.
+                                            </p>
+
+                                            <h2>Proposed Solution</h2>
+                                            We came up with the following differentiating factors from other top apps.
+
+                                            <h3>“Minimal yet energetic Interface”</h3>
+
+                                            <p>Our goal was to design a product that was not really Material and neither
+                                                Cupertino but delivered a very familiar feel, so users did not have to
+                                                search for any option, everything was right there, without overwhelming
+                                                the users.
+                                                </br>
+                                                </br>
+                                                <video autoplay width="50%" controls>
+                                                    <source
+                                                        src="videos/tempo_breathing_meditation_app_multiverse_software.webm"
+                                                        type="video/webm">
+                                                </video>
+
+                                                </br>
+                                            </p>
+
+
+
+                                            <h2>Sitemaps</h2>
+                                            <p>
+                                                Every website should have a goal and a purpose. Sites without clear
+                                                goals are often unfocused and hard to navigate. So, we decided to make a
+                                                sitemap so we could better understand the user’s paths and the
+                                                platform’s structure.
+                                            </p>
+                                            </br>
+
+                                            <h2>User Flow</h2>
+                                            <p>
+                                                There are many different ways for users to interact with products. A
+                                                user flow is a visual representation, either written out or made
+                                                digitally, of the many avenues that can be taken when using an app or
+                                                website (BROWNE, 2019) . The flow cart begins with the user opening
+                                                Tempo’s app like onboarding screen or homepage and ends with the final
+                                                action or outcome, like listening to the audio or signing up for an
+                                                account.
+                                            </p>
+                                            </br>
+
+                                            <h2>Paper Prototype</h2>
+                                            <p>
+                                                Paper prototyping apps and websites is a method some design teams use to
+                                                begin conceptualizing a new product or feature (Joseph Downs, 2021).
+                                                Also it also helps to demonstrate the user flow and functionality that
+                                                your future design will have in the very early stages of ideation. These
+                                                played the part of low-fi wireframes.
+                                            </p>
+                                            </br>
+
+                                            <h2>Design System</h2>
+                                            <p>
+                                                A Design System is the single source of truth which groups all the
+                                                elements that will allow the teams to design, realize and develop a
+                                                product. (Hacq, 2018)
+
+                                                Design systems makes design consistent as a tool for designer and also
+                                                developer to make patterns, guidelines and unique for every application.
+                                                <img src="images/tempo_breathing_meditation_app_multiverse_software_app_icon.webp"
+                                                    style="width:40%; margin: 30.00px; align-content: center;" />
+                                                </br>
+                                                <img src="images/tempo_breathing_meditation_app_multiverse_software_app_colors.webp"
+                                                    style="width:40%; margin: 30.00px; align-content: center;" />
+                                                </br>
+                                            </p>
+                                            </br>
+
+                                            <h2>UI Design</h2>
+                                            <p>There are several considerations when I designed Tempo’s App
+
+                                                It is a sleep application so it needs to be simple
+                                                It will probably be used a lot in the evening so a darker UI is
+                                                essential
+
+                                                Because this is for breathing apps, I need to cut unnecessarily
+                                                complicated or long flow. The goal should be to take as much work off of
+                                                the user as possible.
+
+
+                                                When you open Tempo’s homepage, there are several categories to choose
+                                                from, made by us, made for you and made by the community.
+                                            </p>
+                                            </br>
+
+                                            <h2>Made by us</h2>
+                                            <p>There are several types of breathing provided by the tempo app. It can be
+                                                adapted to our current situation. Like when we are energized, we can
+                                                choose to energize, or when we feel stressed we can choose the type of
+                                                stress relief.
+                                                </br>
+                                                <img src="images/tempo_guided_breathing_default_breathing_patterns.webp"
+                                                    style="width:40%; margin: 30.00px; align-content: center;" />
+                                                </br>
+                                            </p>
+                                            </br>
+
+                                            <h2>Made by you</h2>
+                                            <p>Made by you is the type that breathes that we make ourselves so that we
+                                                can adjust to our wishes.
+                                                </br>
+
+                                                <img src="images/tempo_guided_breathing_default_user_created_breathing_patterns.webp"
+                                                    style="width:40%; margin: 30.00px; align-content: center;" />
+                                                </br>
+                                            </p>
+                                            </br>
+
+                                            <h2>Conclusion and Considerations</h2>
+                                            <p>While developing this, there is a lot of consideration and iteration
+                                                process to make it user friendly apps. Personally during this project I
+                                                learned three things:
+
+                                            <ul>
+                                                <ol>Always listening users</ol>
+                                                <ol>Don’t try to solve everything, or you’ll end up with nothing</ol>
+                                                <ol>Don't focus on solutions, focus on problems</ol>
+                                            </ul>
+                                            During this process, me and my team often have discussions with Mr
+                                            Philippelan so we can be really clear about what the user feels. There is
+                                            also some feedback from tempo’s app.
+                                            </br>
+                                            <img src="images/tempo_app_review.webp"
+                                                style="width:80%; margin: 10.00px; align-content: center;" />
+                                            </br>
+                                            </p>
+                                            </br>
+
+                                            <a class="btn-white-line"
+                                                href="https://play.google.com/store/apps/details?id=com.philippelan.tempo">Try
+                                                Tempo on Android</a>
+                                            </br>
+
+
+                                            </br></br></br>
+
+                                            <!-- ***** Screenshot Start ***** -->
+                                            <div class="item">
+                                                <div class="content">
+                                                    <h5 class="title">Tempo Guided breathing and meditation app other
+                                                        screens
+                                                        Screenshots</h5>
+                                                    <div class="row gallery">
+                                                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                                            <a class="gallery-item"
+                                                                href="images/app_screenshots/tempo_guided_breathing_screenshot_1.webp"
+                                                                title="Tempo Guided breathing screenshot">
+                                                                <img src="images/app_screenshots/tempo_guided_breathing_screenshot_1.webp"
+                                                                    style="width:100%">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                                            <a class="gallery-item"
+                                                                href="images/app_screenshots/tempo_guided_breathing_screenshot_2.webp"
+                                                                title="Tempo Guided breathing screenshot">
+                                                                <img src="images/app_screenshots/tempo_guided_breathing_screenshot_2.webp"
+                                                                    style="width:100%">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                                            <a class="gallery-item"
+                                                                href="images/app_screenshots/tempo_guided_breathing_screenshot_3.webp"
+                                                                title="Tempo Guided breathing screenshot">
+                                                                <img src="images/app_screenshots/tempo_guided_breathing_screenshot_3.webp"
+                                                                    style="width:100%">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ***** Screenshot End ***** -->
+
+
+
+                                            </br>
+                                            </br>
+                                            <img src="images/tempo_guided_breathing_and_meditation_thank_you.webp"
+                                                style="width:100%; margin: 10.00px; align-content: center;" />
+                                            </br>
+
+                                        </div>
+                                        <!-- ***** Post Content End ***** -->
+
+                                        </br></br>
+
+                                        <!-- ***** Post Share Start ***** -->
+                                        <div class="post-footer">
+                                            <span>Share - </span>
+                                            <ul class="share">
+                                                <li><a href="https://www.facebook.com/multiverseapp"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                                                <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+                                                <li><a href="https://www.instagram.com/multiverseapp"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- ***** Post Share End ***** -->
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- ***** Form Start ***** -->
+                            <div class="col-lg-12">
+                                <div class="post-comment">
+                                    <h5 class="mbottom-20">Get a Quote</h5>
+                                    <div class="comment-form">
+
+                                        <div class="form">
+                                            <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                        <div id="errormessage"></div> -->
+
+                                            <form name="contact-form" method="post" data-netlify="true"
+                                                data-netlify-honeypot="bot-field" netlify>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-8 mb-3">
+                                                        <label for="name">Name:</label>
+                                                        <input type="text" name="name" id="name" class="form-control"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-8 mb-3">
+                                                        <label for="email">E-mail:</label>
+                                                        <input type="email" name="mail" class="form-control" required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 mb-4">
+                                                        <label for="budget">Please Select your budget:</label>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-8">
+                                                                <select class="form-control"
+                                                                    name="Please Select a budget" id="budget">
+                                                                    <option value="Less than $1,000">Less than $1,000
+                                                                    </option>
+                                                                    <option value="$1,000 - $5,000">$1,000 - $5,000
+                                                                    </option>
+                                                                    <option value="$5,000 - $10,000">$5,000 - $10,000
+                                                                    </option>
+                                                                    <option value="$15,000 - $20,000">$15,000 - $20,000
+                                                                    </option>
+                                                                    <option value="$20,000 - $30,000">$20,000 - $30,000
+                                                                    </option>
+                                                                    <option value="$30,000+">$30,000+</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-8 mb-4">
+                                                        <label for="comment"> Your Message:</label>
+                                                        <textarea type="text" name="comment" id="comment" size="50"
+                                                            class="form-control" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <button type="submit" class="btn-secondary-block pull-right"
+                                                            value="Send"> Send Message
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-lg-12">
+                                                <button type="reset" class="btn-secondary-block pull-right" value="Reset"> Reset </button>
+                                            </div> -->
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Form End ***** -->
+                        </div>
+
+                    </div>
+
+                    <!-- ***** Aside Start ***** -->
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <aside class="default-aside">
+                            <div class="sidebar">
+                                <!-- <div class="search-widget">
+                                <div class="search">
+                                    <form action="">
+                                        <input type="text" placeholder="Search">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div> -->
+                                <ul>
+                                    <li><a href="#">Technology <span>23</span></a></li>
+                                    <li><a href="#">Companies <span>12</span></a></li>
+                                    <li><a href="#">Mobile <span>153</span></a></li>
+                                    <li><a href="#">Social Media <span>9</span></a></li>
+                                    <li><a href="#">General <span>95</span></a></li>
+                                    <li><a href="#">App Review <span>32</span></a></li>
+                                    <li><a href="#">Mobile Future <span>76</span></a></li>
+                                </ul>
+                                <div class="home-services-item box active">
+                                    <h5 class="services-title">Tell us about your projects and we’ll get back to you
+                                        with
+                                        details on how we can make this work.<br />We can't wait to talk about your app
+                                        idea!
+                                        😊</h5>
+                                    <div class="phone">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>support@multiverseapp.com</span>
+                                    </div>
+                                    <a class="btn-white-line" href="../../contact.html">Contact Us</a>
+                                </div>
+                                <div class="widget-tags">
+                                    <a href="#">multiverse</a>
+                                    <a href="#">multiverse app</a>
+                                    <a href="#">Covid 19 app</a>
+                                    <a href="#">multiverse software</a>
+                                    <a href="#">mobile app developer</a>
+                                    <a href="#">iOS</a>
+                                    <a href="#">Android</a>
+                                    <a href="#">App</a>
+                                    <a href="#">Feature</a>
+                                    <a href="#">Development</a>
+                                    <a href="#">Design</a>
+                                    <a href="#">Store</a>
+                                    <a href="#">UX</a>
+                                    <a href="#">Back-End</a>
+                                    <a href="#">UI</a>
+                                    <a href="#">Coding</a>
+                                    <a href="#">Database</a>
+                                    <a href="#">Flutter</a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- ***** Aside End ***** -->
+                </div>
+            </div>
+        </div>
+        <!-- ***** Page Content End ***** -->
+
+
+    </section>
+
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <img src="../../assets/images/logo.png" class="logo" alt="">
+                    <div class="text">We design and develop mobile apps that delight your users and grow your business.
+                        Enterprise-grade development combined with outstanding design.
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <h5>Helpful Links</h5>
+                    <ul class="footer-nav">
+                        <li><a href="../../our-apps.html"><i class="fa fa-angle-right"></i><span>Our Apps</span></a>
+                        </li>
+                        <li><a href="../../client-apps.html"><i class="fa fa-angle-right"></i><span>Client's
+                                    Apps</span></a>
+                        </li>
+                        <li><a href="../../ready-to-sell.html"><i class="fa fa-angle-right"></i><span>Ready to Sell
+                                    Code</span></a>
+                        </li>
+                        <li><a href="../../services.html"><i class="fa fa-angle-right"></i><span>Services</span></a>
+                        </li>
+                        <li><a href="../../blog.html"><i class="fa fa-angle-right"></i><span>Blog</span></a></li>
+                        <li><a href="../../about-us.html"><i class="fa fa-angle-right"></i><span>About Us</span></a>
+                        </li>
+                        <li><a href="../../contact.html"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <h5>Latest Apps</h5>
+                    <ul class="footer-nav">
+                        <li><a href="#"><i class="fa fa-angle-right"></i><span>Heal Station</span></a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i><span>Tempo</span></a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i><span>Ullu</span></a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i><span>Friday</span></a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i><span>Extreme</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5>Contact Us</h5>
+                    <div class="address">
+                        <!-- <p>407, Neelkanth Palace<br>Near Seema Hall, 100 Ft Prahlad Nagar road, Ahmedabad 380051</p> -->
+                        <!-- <p>Phone: (272) 211-7370</p> -->
+                        <p><span>E-Mail:</span><a href="#">support@multiverseapp.com</a></p>
+                        <ul class="social">
+                            <li><a href="http://facebook.com/multiverseapp"><i class="fa fa-facebook-square"></i></a>
+                            </li>
+                            <!-- <li><a href="#"><i class="fa fa-twitter-square"></i></a></li> -->
+                            <li><a href="https://www.linkedin.com/company/35471850"><i
+                                        class="fa fa-linkedin-square"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li> -->
+                            <!-- <li><a href="#"><i class="fa fa-github-square"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <p class="copyright">© 2020 Multiverse Software India. All Rights Reserved.</p> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Start ***** -->
+
+
+    <!-- jQuery -->
+    <script src="../../assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="../../contactform/contactform.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../../assets/js/popper.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="../../assets/js/scrollreveal.min.js"></script>
+    <script src="../../assets/js/parallax.min.js"></script>
+    <script src="../../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../../assets/js/imgfix.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Global Init -->
+    <script src="../../assets/js/custom.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-Z7YMZPDZJQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</html>

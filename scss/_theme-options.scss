@@ -1,0 +1,62 @@
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700&subset=latin-ext');
+
+$font : 'Nunito', sans-serif;
+
+$light: 300;
+$normal: 400;
+$semi: 600;
+$bold: 700;
+
+
+// General Colors
+$primaryColor: #5156EA;
+$secondaryColor: #1ECBC0;
+
+// Gradient Colors
+$gradientDark: #5156EA;
+$gradientLight: #4147E8;
+
+// Gradient Colors
+$secondaryGradientDark: #00BCB0;
+$secondaryGradientLight: #40DBD1;
+
+//Heading Color
+$headingDark: #3B566E;
+$headingLight: #ffffff;
+
+// Text Colors
+$textDark: #5e6e7d;
+$textLight: #EDEEFD;
+
+$footerLineColor: #6C70F7;
+
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 20px !important;
+    color: $headingDark;
+}
+
+h1 {
+	@include font($normal, 36px);
+}
+h2 {
+	@include font($normal, 32px);
+}
+h3 {
+	@include font($normal, 28px);
+}
+h4 {
+	@include font($normal, 24px);
+}
+h5 {
+	@include font($normal, 20px);
+}
+h6 {
+	@include font($normal, 16px);
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6be581;
+        filter: url(#gradient-overlay-1);
+        opacity: 0.1;
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="5" y="14" width="630" height="612" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjMwIiBoZWlnaHQ9IjYxMiI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjkiIHkxPSI2MTIiIHgyPSI2MjEiPgogIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiM1OTJkYTQiLz4KICA8c3RvcCBvZmZzZXQ9IjEuMjUiIHN0b3AtY29sb3I9IiMyOTNmYWYiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <path d="M276.021,583.822 C276.021,583.822 338.913,662.810 390.695,604.657 C390.695,604.657 405.051,589.856 413.635,573.376 C413.635,573.376 440.739,527.798 500.174,503.510 C500.174,503.510 575.733,474.112 601.307,444.067 C626.880,414.023 666.578,347.743 591.948,280.382 C591.948,280.382 555.491,245.244 489.791,217.841 C489.791,217.841 439.418,194.680 417.866,154.254 C417.866,154.254 399.494,119.129 389.729,84.404 C389.729,84.404 373.216,25.402 308.422,15.605 C308.422,15.605 242.847,0.565 198.951,62.538 C198.951,62.538 179.979,91.382 161.407,158.462 C161.407,158.462 145.039,224.885 108.222,267.941 C108.222,267.941 86.623,297.178 39.409,315.911 C39.409,315.911 -23.371,356.347 20.629,416.002 C20.629,416.002 36.832,438.580 88.389,439.972 C88.389,439.972 128.383,436.283 180.124,483.747 C180.124,483.747 225.648,528.770 276.021,583.822 Z" class="cls-1"/>
+</svg>

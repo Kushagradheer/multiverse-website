@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6be581;
+        filter: url(#gradient-overlay-1);
+        opacity: 0.1;
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="9.03125" y="18" width="621.99975" height="604" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjIxLjk5OTc1IiBoZWlnaHQ9IjYwNCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjkiIHkxPSI2MDQiIHgyPSI2MTMiPgogIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiM1OTJkYTQiLz4KICA8c3RvcCBvZmZzZXQ9IjEuMjUiIHN0b3AtY29sb3I9IiMyOTNmYWYiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <path d="M276.597,59.655 C276.597,59.655 338.688,-18.296 389.809,39.094 C389.809,39.094 403.982,53.700 412.457,69.964 C412.457,69.964 439.215,114.944 497.893,138.914 C497.893,138.914 572.489,167.926 597.736,197.576 C622.983,227.226 662.176,292.636 588.497,359.114 C588.497,359.114 552.504,393.791 487.642,420.834 C487.642,420.834 437.912,443.690 416.634,483.587 C416.634,483.587 398.497,518.251 388.855,552.520 C388.855,552.520 372.553,610.748 308.585,620.416 C308.585,620.416 243.846,635.259 200.510,574.099 C200.510,574.099 181.779,545.633 163.444,479.434 C163.444,479.434 147.284,413.882 110.938,371.391 C110.938,371.391 89.614,342.538 43.002,324.051 C43.002,324.051 -18.979,284.145 24.461,225.273 C24.461,225.273 40.457,202.992 91.357,201.618 C91.357,201.618 130.841,205.259 181.923,158.417 C181.923,158.417 226.867,113.985 276.597,59.655 Z" class="cls-1"/>
+</svg>

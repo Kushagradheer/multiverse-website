@@ -1,0 +1,237 @@
+<section class="referring-videos  padd50">
+	<div class="container container_custom">
+    	<h2 class="">Applications Built with Beacon Technology 11</h2>
+        <div class="title-design" style="margin-bottom:0px;"><abbr></abbr></div>
+		<div class="fliper_content">
+        	<div class="hoverEffects">
+                <ul class="">
+                                  <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/resource-tracking-app-min.jpg" alt="Resource Tracking App">
+                    <h3><span>Resource Tracking App</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_0" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>Incorporating the power of iBeacon and location-based technology we have developed a full-fledged system for tracking your resource like logistic tracking mobile app for a shipping company, pet tracking app, etc.</p>
+                  </div>
+                   </li>
+                                     <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/indoor-navigation-and-positioning-min.jpg" alt="Indoor Navigation and Positioning">
+                    <h3><span>Indoor Navigation and Positioning</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_1" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>Using beacon technology, we have built a precise indoor positioning system. The iBeacon indoor navigation app has helped people especially visually impaired people to navigate easily in malls, halls etc.</p>
+                  </div>
+                   </li>
+                                     <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/healthcare-app-solutions-min.jpg" alt="Healthcare App Solutions">
+                    <h3><span>Healthcare App Solutions</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_2" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>Transferring medical data between Beacon devices or BLE enabled devices. With the implementation of the beacon and IoT technology, we have created apps that can monitor patients health like, Blood Pressure, Sugar Level, etc.</p>
+                  </div>
+                   </li>
+                                     <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/automation-min.jpg" alt="Automation">
+                    <h3><span>Automation</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_3" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>Automate everything around your be it home, appliances, commercial sector or any other area. We incorporate beacon technology to all manual work like turning ON or OFF the air conditioner without pressing any button.</p>
+                  </div>
+                   </li>
+                                     <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/interactive-tour-guide-min.jpg" alt="Interactive Tour Guide">
+                    <h3><span>Interactive Tour Guide</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_4" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>Enhancing your tour experience we develop innovative and easy-to-use apps. From art galleries to museums to Zoo to ancient forts or places, we have developed apps that will notify users about the nearby attractions and will provide information in multilingual voice, text or videos.</p>
+                  </div>
+                   </li>
+                                     <li class="page">
+                    <img class="full" src="https://theninehertz.com/wp-content/uploads/2019/08/push-notifications-for-excellent-marketing-min.jpg" alt="Push Notifications for Excellent Marketing">
+                    <h3><span>Push Notifications for Excellent Marketing</span></h3>
+                    <a href="javascript:void(0)"  data-id="animate_open" class="button" data-target="#modal-container_5" ><i class="fa fa-play"></i></a>
+                  <div class="back face center">
+                    <p>iBeacon has made marketing experience for the businesses very easy. When your potential customers are in proximity, you can notify them about your hot deals, discounts, etc. Ibeacon technology bridges the gap between your business and your customers.</p>
+                  </div>
+                   </li>
+                                   </ul>
+            </div>
+    	</div>
+	</div>
+</section>
+
+<!-- Modal -->
+<div id="modal-container_0" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_0" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="vLxrmvoe1I4"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Resource Tracking App</h3>
+            	<p>Incorporating the power of iBeacon and location-based technology we have developed a full-fledged system for tracking your resource like logistic tracking mobile app for a shipping company, pet tracking app, etc.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        <div id="modal-container_1" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_1" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="9cH44pE1Fks"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Indoor Navigation and Positioning</h3>
+            	<p>Using beacon technology, we have built a precise indoor positioning system. The iBeacon indoor navigation app has helped people especially visually impaired people to navigate easily in malls, halls etc.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        <div id="modal-container_2" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_2" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="UgrZAl53ljw"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Healthcare App Solutions</h3>
+            	<p>Transferring medical data between Beacon devices or BLE enabled devices. With the implementation of the beacon and IoT technology, we have created apps that can monitor patients health like, Blood Pressure, Sugar Level, etc.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        <div id="modal-container_3" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_3" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="T2kQHqh8izg"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Automation</h3>
+            	<p>Automate everything around your be it home, appliances, commercial sector or any other area. We incorporate beacon technology to all manual work like turning ON or OFF the air conditioner without pressing any button.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        <div id="modal-container_4" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_4" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="7x-eIpbNjl8"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Interactive Tour Guide</h3>
+            	<p>Enhancing your tour experience we develop innovative and easy-to-use apps. From art galleries to museums to Zoo to ancient forts or places, we have developed apps that will notify users about the nearby attractions and will provide information in multilingual voice, text or videos.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        <div id="modal-container_5" class="modal fade modalVideo video-container" role="dialog">
+  <div class="modal-dialog modal-background">
+
+    <!-- Modal content-->
+    <div class="modal-content modal">
+        <div class="modal-header">
+            <a href="javascript:void(0)" data-id="modal-container_5" class="video_closer"><i class="fa fa-close"></i></a>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-7 col-xs-12">
+            	<!--<iframe class="videoFrame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+            	<div class="video">
+ 					<div class="youtube-player" data-id="NUCxdAm8pxU"></div>
+                </div>
+            </div>
+        	<div class="col-sm-5 col-xs-12">
+            	<div class="vText">
+            	<h3>Push Notifications for Excellent Marketing</h3>
+            	<p>iBeacon has made marketing experience for the businesses very easy. When your potential customers are in proximity, you can notify them about your hot deals, discounts, etc. Ibeacon technology bridges the gap between your business and your customers.</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+                            {"id":6616,"date":"2018-02-02T11:45:35","date_gmt":"2018-02-02T11:45:35","guid":{"rendered":"https:\/\/theninehertz.com\/?page_id=6616"},"modified":"2020-05-11T07:23:19","modified_gmt":"2020-05-11T07:23:19","slug":"ibeacon-app-development","status":"publish","type":"page","link":"https:\/\/theninehertz.com\/ibeacon-app-development","title":{"rendered":"ibeacon App Development"},"content":{"rendered":"<section class=\"fantasySports-bnr\">\n<div class=\"container-fluid\">\n<div class=\"subContent\">\n<div class=\"row\">\n<div class=\"col-sm-12 col-xs-12\">\n<div class=\"text-center\">\n<h1 class=\"\"><span>iBeacon App Development Company<\/span> <\/h1>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-sm-5 col-xs-12\">\n<div class=\"fantasy-text\">\n<h3>Get the smart way to connect your life with technology. Connect with iBeacon development services of NineHertz.<\/h3>\n<p>Fill your devices with loads of offers and deals nearby and pay them without the card. Own an iBeacon app and create a greater impact on your consumers. We help you to make your dream come true of linking the venture with iBeacon technologies at an affordable cost in the industry.<\/p>\n<ul class=\"banr-listing\">\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/bnr-check-yellow.png\" alt=\"\"\/> User-friendly<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/bnr-check-yellow.png\" alt=\"\"\/> Customized<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/bnr-check-yellow.png\" alt=\"\"\/> Free expert consultation<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/bnr-check-yellow.png\" alt=\"\"\/> 100% data security<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/bnr-check-yellow.png\" alt=\"\"\/> No extra and hidden charges<\/li>\n<\/ul>\n<div class=\"mCntr\">\n\t\t\t\t\t\t<a href=\"javascript:void(0)\" class=\"btn btn-default get_quote\">Free Consultations<\/a>\n\t\t\t\t\t<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-7 col-xs-12 text-center\">\n<div class=\"fantasy-mob-group\">\n<div class=\"fantasy-mob-left\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-app-left.png\" alt=\"Fantasy Sports App Development\" class=\"img-responsive\"\/><\/div>\n<div class=\"fantasy-mob-middle\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2020\/03\/ibeacon-app-mid.png\" class=\"img-responsive\" alt=\"Fantasy Sports App Development\"\/><\/div>\n<div class=\"fantasy-mob-right\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-app-right.png\" class=\"img-responsive\" alt=\"Fantasy Sports App Development\"\/><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"clients-delighted cd-gap\">\n<div class=\"container-fluid container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-5 xol-xs-12\">\n<div class=\"row\">\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"cl-set\">\n                        <span class=\"left-line\"><\/span>\n<div class=\"free-sub\">11+<\/div>\n<p>Years Experience in IT Services<\/p>\n<\/div>\n<\/div>\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"cl-set\">\n                        <span class=\"left-line\"><\/span>\n<div class=\"free-sub\">200+<\/div>\n<p>Dedicated Professionals<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"cl-set\">\n                        <span class=\"left-line\"><\/span>\n<div class=\"free-sub\">15+<\/div>\n<p>Countries Served<\/p>\n<\/div>\n<\/div>\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"cl-set\">\n                        <span class=\"left-line\"><\/span>\n<div class=\"free-sub\">800+<\/div>\n<p>iPhone and Android Apps Develop<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-2 xol-xs-12\">\n<div class=\"dc-clients\">\n<div class=\"dc-box\">\n<div class=\"client-sub\">450+<\/div>\n<p>Delighted Clients<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-5 xol-xs-12\">\n<div class=\"dc-cli-ents-outr\">\n<div class=\"dc-cli-ents owl-carousel\">\n<div class=\"item\">\n<div class=\"client-circel\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/04\/client-logo_1.png\" alt=\"Jaipur Metro\" \/><\/div>\n<\/div>\n<div class=\"item\">\n<div class=\"client-circel\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/04\/client-logo_2.png\" alt=\"Pepsi\"\/><\/div>\n<\/div>\n<div class=\"item\">\n<div class=\"client-circel\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/04\/client-logo_3.png\" alt=\"Samsung\" \/><\/div>\n<\/div>\n<div class=\"item\">\n<div class=\"client-circel\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/04\/client-logo_4.png\" alt=\"Reliance Jio\" \/><\/div>\n<\/div>\n<div class=\"item\">\n<div class=\"client-circel\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/04\/client-logo_5.png\" alt=\"Casio\" \/><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"fantasy-about padd50\" style=\"padding-top:50px;\">\n<div class=\"container container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-12 col-xs-12\">\n<h2 class=\"aos-animate\" data-aos=\"fade-up\">iBeacon App Development Services<\/h2>\n<\/div>\n<div class=\"col-sm-6 col-xs-12 text-left\">\n<p>From small app to intensely coded app, we offer a rich scale of iBeacon app development services at NineHertz. We help you to deliver customized in-store shopping with meaningful notifications and needed offers of the nearby stores through iBeacon app. Our experts have full knowledge about BLE technology and have accurate calculation skills to make the app relatable to your venture. <\/p>\n<p>NineHertz combines technology with a finely blended combination of analytics and market research. We make research on the venture of the application to realize the market needs and other needs of the present. Once we gathered the data, our experts analyse it and plan a structure for app feature development. Next, discussion with the clients leads to the starting of the building an app that will create a delightful user experience and of course profits to you.<\/p>\n<p>NineHertz is a leading brand for iBeacon application development and has created several apps in beacon technology. The BLE experts have settled a milestone of their excellence by acquiring the detailed knowledge of Beacon technology and BLE connectivity. Promising to convert your iOS device that shares data using Bluetooth into an iBeacon. Our innovate and dedicated team will take care of design, needs, and help you to build strong brand value in the market.<\/p>\n<div class=\"mCntr\"><a href=\"https:\/\/theninehertz.com\/contact-us\/\" class=\"btn btn-default\">Contact Us<\/a><\/div>\n<\/div>\n<div class=\"col-sm-6 col-xs-12 text-center\">\n<ul class=\"fantasy-about-list\">\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Indoor navigation app<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Deal and coupons based on Proximity<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Proximity solutions<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> iBeacon based payment solutions<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Customized iBeacon app<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Enterprise solution based on iBeacon<\/li>\n<li><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/02\/fantsy-list-check.png\" alt=\"ckeck\"\/> Personalized alerts solutions<\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"fantasy-sports-app-sol great-features ee-cybersecurity ibcn-bx  padd50\">\n<div class=\"container\">\n<h2>Building iBeacon App With Us is an Easy Job!<\/h2>\n<p class=\"text-center\">Building an iBeacon app with Ninehertz is as same as having a piece of cake. It is hassle-free and less trouble taking. We organize and manages the process. Let&#8217;s check out the major gems which make it convenient for the users.<\/p>\n<\/div>\n<div class=\"container container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-3 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon1.png\" alt=\"\"\/><\/div>\n<h3>Proximity Marketing<\/h3>\n<div class=\"wht-bx\">Sending alerts and notification when passing by the stores. Get information about your favourite products in your devices easily.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-3 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon2.png\" alt=\"\"\/><\/div>\n<h3>Indoor Navigation<\/h3>\n<div class=\"wht-bx\">Using iBeacon network, you can direct to the place even if you are out of the GPS network. This works when you are at an indoor place.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-3 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon3.png\" alt=\"\"\/><\/div>\n<h3>Product Identification<\/h3>\n<div class=\"wht-bx\">App Detects the location from the nearest beacon and pops up the product information.<br \/> &nbsp;<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-3 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon4.png\" alt=\"\"\/><\/div>\n<h3>Payment Systems<\/h3>\n<div class=\"wht-bx\">BLE allows cashiers to pay without card and cash by automatically payment at checking out.<br \/> &nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"iot-technos padd50\">\n<div class=\"container container_custom\">\n<h2 class=\"text-center\">Empower Your Business with iBeacon Technology<\/h2>\n<p class=\"text-center\">iBeacon is an innovative and prominent technology. Based on Bluetooth Low Energy (BLE), iBeacon offers easy communication among various iBeacon devices. In recent years, iBeacon has gained popularity among advertisers and businesses. They are using iBeacon in the most interactive way for leveraging high customer rate and revenue.<\/p>\n<p class=\"text-center\" style=\"margin-bottom:10px;\">Businesses being able to advertise their brand by broadcasting signals through their beacon devices to the customer\u2019s smartphones showing their presence in the near proximity. With the latest technologies and tools, our developers develop iBeacon applications for your business and enhance your audience reach.<\/p>\n<\/div>\n<\/section>\n<section class=\"cf-features cyber-benefits padd50\" style=\"background-color:#fff;\">\n<div class=\"container\">\n<h2>Key factors that make Beacon development special for you<\/h2>\n<p>Our team has a diverse range of developers who surely make your app runs smoothly and create a hard time for your competitors.<\/p>\n<\/div>\n<div class=\"container container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon5.png\" alt=\"\"\/><\/div>\n<h4>Development site<\/h4>\n<div class=\"wht-bx\">Our super experts of beacon app development who create the high-performance BLE mobile apps.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon6.png\" alt=\"\"\/><\/div>\n<h4>Easy customization<\/h4>\n<div class=\"wht-bx\">We customize your application according to your business needs so that you get a perfect business application.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n\t\t\t\t`\t\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon7.png\" alt=\"\"\/><\/div>\n<h4>Sourcing<\/h4>\n<div class=\"wht-bx\">We help to connect your hardware so that you experience the latest BLE beacons in your infrastructure.<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon8.png\" alt=\"\"\/><\/div>\n<h4>Consultation<\/h4>\n<div class=\"wht-bx\">We have experts of BLE, beacons and related technology who talk to the clients and discuss the business need to make a better plan for them.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon9.png\" alt=\"\"\/><\/div>\n<h4>Integration<\/h4>\n<div class=\"wht-bx\">We monitor the integration of the app securely and make sure it worked well from all factors.<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n\t\t\t\t`\t\n<div class=\"gf-icon\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon10.png\" alt=\"\"\/><\/div>\n<h4>Deployment<\/h4>\n<div class=\"wht-bx\">Deployment of your application will be on your choice sever. Our app is compatible with all servers and gets published on respective Android and iOS stores.<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"iot-iws ibeacon-ble  padd50\">\n<div class=\"container container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"difference-box mrgn-right\" style=\"margin-top:0px;\">\n<h2>What is iBeacon<\/h2>\n<div class=\"\">\n<p>iBeacon is a version of Bluetooth-based beacon developed by Apple. iBeacon facilitates Bluetooth devices to transmit and receive static signals (data) within close proximity. iBeacon transmits its distinct identification number to the receiver (Smartphones) in the local area.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-6 col-xs-12\">\n<div class=\"difference-box mrgn-left\" style=\"margin-top:0px;\">\n<h2>What is BLE?<\/h2>\n<div class=\"\">\n<p>Bluetooth Low Energy is a wireless technology used for connecting devices at lower energy. It takes the least energy for two BLE devices to transfer and broadcast data. But the data transfer rate is low and very slow so, it is not suitable for transferring audio and video files.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"thin-timeline iBeacon-timeline  padd50\">\n<h2>That&#8217;s how Beacon Works<\/h2>\n<div class=\"line-start\">Start<\/div>\n<div class=\"container\">\n<div class=\"liner-timeline\">\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon11.png\" alt=\"\"\/><\/span><\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description\">\n<li>Step 1<\/li>\n<\/ul>\n<h3 class=\"title\">Beacon deployment<\/h3>\n<\/div>\n<\/div>\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon12.png\" alt=\"\"\/><\/span> <\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description text-right\">\n<li>Step 2<\/li>\n<\/ul>\n<h3 class=\"title\">Smartphone Detects Signal<\/h3>\n<\/div>\n<\/div>\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon13.png\" alt=\"\"\/><\/span><\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description\">\n<li>Step 3<\/li>\n<\/ul>\n<h3 class=\"title\">Cloud Server Receives The ID Number<\/h3>\n<\/div>\n<\/div>\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon14.png\" alt=\"\"\/><\/span><\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description text-right\">\n<li>Step 4<\/li>\n<\/ul>\n<h3 class=\"title\">Server Respond<\/h3>\n<\/div>\n<\/div>\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon15.png\" alt=\"\"\/><\/span><\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description\">\n<li>Step 5<\/li>\n<\/ul>\n<h3 class=\"title\">Notification Displayed<\/h3>\n<\/div>\n<\/div>\n<div class=\"timeline\">\n<div class=\"icon\"><\/div>\n<div class=\"date-content\">\n<div class=\"date-outer\"><span class=\"date\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2019\/05\/ibeacon-icon16.png\" alt=\"\"\/><\/span><\/div>\n<\/div>\n<div class=\"timeline-content\">\n<ul class=\"description text-right\">\n<li>Step 6<\/li>\n<\/ul>\n<h3 class=\"title\">Beacons Notification<\/h3>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"fantasy-sports-app-sol ar-ds-experts ibeacon-solu  padd50\">\n<div class=\"container\">\n<h2>Solutions we are experts at iBeacon Application Development<\/h2>\n<\/div>\n<div class=\"container container_custom\">\n<div class=\"row\">\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Secure Mobile Payments<\/h3>\n<p>Making a safeguard shield around your data by creating a high-end security system. Easy-to-go payment with two-level authentication.<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Smart Museum App<\/h3>\n<p>Pass through any art or museum entity, it will display information and history of that article. Use them in the art gallery and exhibition as well.<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Indoor Navigation Apps<\/h3>\n<p>Search your favorite store or restaurants without your GPS network. Spend a quality time of shopping with iBeacon located near you.<\/p>\n<\/div><\/div>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Document transfer Apps<\/h3>\n<p>Get an easy and secure way of transferring your data without compressing your data at any stage.<br \/> &nbsp;<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Location-Based Info App<\/h3>\n<p>Get nearby notification and offers form your favorite brands base don your location.<br \/> &nbsp;<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Vehicle Tracking Apps<\/h3>\n<p>Make your device, a tracking tool as beacon technology allows to set the positions and track your location.<\/p>\n<\/div><\/div>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>iBeacon Health care app solution<\/h3>\n<p>Wearables apps that monitor health can be gear up with beacon technology that displays the information about the patients.<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Tailored Design<\/h3>\n<p>From planning strategies to designing the layout, our team creates customized iBeacon solutions for the clients.<br \/> &nbsp;<\/p>\n<\/div><\/div>\n<\/div>\n<div class=\"col-sm-4 col-xs-12\">\n<div class=\"fsas-col\">\n<div class=\"wht-bx mHight2\">\n<h3>Pet Tracker App<\/h3>\n<p>BLE based app for a pet helps you to find out your little part of the family if they are misguided from the path. We have a little device that fits for every pet.<\/p>\n<\/div><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>\n<section class=\"cf-features cyber-benefits padd50\">\n<div class=\"container container_custom\">\n<h2>Hiring an iBeacon developer is to happy business<\/h2>\n<p>Our app developers have worked on many projects of BLE and beacon technology with the various varieties of sectors such as restaurants, hospitals, brand stores, etc. With the advancement in technology, they have integrated several integrated payment systems which helps the become technology to work even more gracefully and creates ease while paying. Not only payment, but the developers also have several apps which track the pets, luggage, cars, and other important entity. Hire iBeacon developer of NineHertz and open the crackerjack box of deals and benefits for your venture. <\/p>\n<p><b>Create an advanced and smarter way of working with Ninehertz iBeacon developers. Hire these super experts now!<\/b><\/p>\n<\/div>\n<\/section>\n<p>[insert_php]echo do_shortcode(&#8216;&#8216;);[\/insert_php]<\/p>\n<section class=\"iot_tabs sswd newTab_section tabsChanger padd50\">\n<div class=\"container\">\n<h2><span>Technologies That are Key To Success<\/span><\/h2>\n<div class=\"oitTabs\">\n<ul class=\"nav nav-tabs\">\n<li class=\"active\"><a data-toggle=\"tab\" href=\"#mobileTechnologies\">Mobile Technologies<\/a><\/li>\n<li><a data-toggle=\"tab\" href=\"#webTechnologies\">Web Technologies<\/a><\/li>\n<li><a data-toggle=\"tab\" href=\"#javaScriptFramwork\">JavaScript Framwork<\/a><\/li>\n<li><a data-toggle=\"tab\" href=\"#database\">Database<\/a><\/li>\n<li><a data-toggle=\"tab\" href=\"#designUiUx\">UI\/UX<\/a><\/li>\n<\/ul>\n<div class=\"tab-content\">\n<div id=\"mobileTechnologies\" class=\"tab-pane fade in active\">\n<ul class=\"iconTag\">\n<li><abbr class=\"bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs1.png\"\/><\/abbr><span>Xcode<\/span><\/li>\n<li><abbr class=\"bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs2.png\"\/><\/abbr><span>Objective C<\/span><\/li>\n<li><abbr class=\"bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs3.png\"\/><\/abbr><span>Swift<\/span><\/li>\n<li><abbr class=\"bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs4.png\"\/><\/abbr><span>AndroidSDK<\/span><\/li>\n<li><abbr class=\"bg5\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs5.png\"\/><\/abbr><span>Java<\/span><\/li>\n<li><abbr class=\"bg6\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs6.png\"\/><\/abbr><span>Flutter<\/span><\/li>\n<li><abbr class=\"bg7\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs7.png\"\/><\/abbr><span>Ionic<\/span><\/li>\n<li><abbr class=\"bg8\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs8.png\"\/><\/abbr><span>React<\/span><\/li>\n<li><abbr class=\"bg9\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs9.png\"\/><\/abbr><span>Kotlin<\/span><\/li>\n<\/ul><\/div>\n<div id=\"webTechnologies\" class=\"tab-pane fade\">\n<ul class=\"iconTag\">\n<li><abbr class=\"bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs10.png\"\/><\/abbr><span>CodeIgniter<\/span><\/li>\n<li><abbr class=\"bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs11.png\"\/><\/abbr><span>CakePHP<\/span><\/li>\n<li><abbr class=\"bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs12.png\"\/><\/abbr><span>WordPress<\/span><\/li>\n<li><abbr class=\"bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs13.png\"\/><\/abbr><span>Laravel<\/span><\/li>\n<li><abbr class=\"bg5\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs14.png\"\/><\/abbr><span>Magento<\/span><\/li>\n<li><abbr class=\"bg6\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs15.png\"\/><\/abbr><span>Joomla<\/span><\/li>\n<li><abbr class=\"bg7\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs16.png\"\/><\/abbr><span>Drupal<\/span><\/li>\n<li><abbr class=\"bg8\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs17.png\"\/><\/abbr><span>OpenCart<\/span><\/li>\n<li><abbr class=\"bg9\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs18.png\"\/><\/abbr><span>PrestaShop<\/span><\/li>\n<\/ul><\/div>\n<div id=\"javaScriptFramwork\" class=\"tab-pane fade\">\n<ul class=\"iconTag\">\n<li><abbr class=\"bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs19.png\"\/><\/abbr><span>AngularJS<\/span><\/li>\n<li><abbr class=\"bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs20.png\"\/><\/abbr><span>Node.js<\/span><\/li>\n<li><abbr class=\"bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs8.png\"\/><\/abbr><span>React<\/span><\/li>\n<li><abbr class=\"bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs21.png\"\/><\/abbr><span>Mocha<\/span><\/li>\n<li><abbr class=\"bg5\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs22.png\"\/><\/abbr><span>Jasmine<\/span><\/li>\n<li><abbr class=\"bg6\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs23.png\"\/><\/abbr><span>CoffeeScript<\/span><\/li>\n<\/ul><\/div>\n<div id=\"database\" class=\"tab-pane fade\">\n<ul class=\"iconTag\">\n<li><abbr class=\"bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs24.png\"\/><\/abbr><span>MySQL<\/span><\/li>\n<li><abbr class=\"bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs25.png\"\/><\/abbr><span>MongoDB<\/span><\/li>\n<li><abbr class=\"bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs26.png\"\/><\/abbr><span>RethinkDB<\/span><\/li>\n<li><abbr class=\"bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs27.png\"\/><\/abbr><span>PostgreSQL<\/span><\/li>\n<\/ul><\/div>\n<div id=\"designUiUx\" class=\"tab-pane fade\">\n<ul class=\"iconTag\">\n<li><abbr class=\"bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs28.png\"\/><\/abbr><span>Adobe Photoshop<\/span><\/li>\n<li><abbr class=\"bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs29.png\"\/><\/abbr><span>HTML5<\/span><\/li>\n<li><abbr class=\"bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs30.png\"\/><\/abbr><span>CSS3<\/span><\/li>\n<li><abbr class=\"bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs31.png\"\/><\/abbr><span>Sketch<\/span><\/li>\n<li><abbr class=\"bg5\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs32.png\"\/><\/abbr><span>Adobe Illustrator<\/span><\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<div class=\"newIndustry\">\n<h2><span>Industries We Work With<\/span><\/h2>\n<p>Working for <span class=\"box\">9+ years<\/span> deepens our knowledge in the diverse domains. We serve a wide range of industries including Logistics, Travel, Real-Estate, Healthcare, FMCG, Not-For-Profit, Banking, etc. <\/p>\n<div class=\"blast-points\">\n<ul class=\"mover\">\n<li class=\"confetti-button animate\"><a href=\"https:\/\/theninehertz.com\/restaurant-app-development\/\"><span class=\"icon-circul bg1\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs33.png\"\/><\/span> <em>Food and Restaurants<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/real-estate-app-development\/\"><span class=\"icon-circul bg2\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs34.png\"\/><\/span> <em>Real-Estate<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/travel-app-development\/\"><span class=\"icon-circul bg3\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs35.png\"\/><\/span> <em>Travel<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/sports\/\"><span class=\"icon-circul bg4\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs36.png\"\/><\/span> <em>Sports and Recreation<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/healthcare-app-development\/\"><span class=\"icon-circul bg5\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs37.png\"\/><\/span> <em>Health and Fitness<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/shopping\/\"><span class=\"icon-circul bg6\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs38.png\"\/><\/span> <em>Shopping and E-Commerce<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/educational-app-development\/\"><span class=\"icon-circul bg7\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs39.png\"\/><\/span> <em>Education and E-Learning<\/em><\/a><\/li>\n<li class=\"confetti-button\"><a href=\"https:\/\/theninehertz.com\/media-entertainment\/\"><span class=\"icon-circul bg8\"><img wpfc-lazyload-disable=\"true\" src=\"https:\/\/theninehertz.com\/wp-content\/uploads\/2018\/07\/tbbs40.png\"\/><\/span> <em>Media and Entertainment<\/em><\/a><\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/section>\n","protected":false},"excerpt":{"rendered":"<p>iBeacon App Development Company Get the smart way to connect your life with technology. Connect with iBeacon development services of NineHertz. Fill your devices with loads of offers and deals nearby and pay them without the card. Own an iBeacon app and create a greater impact on your consumers. We help you to make your [&hellip;]<\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"Inner-template.php","meta":[],"yst_prominent_words":[417,11,645,448,1346,1342,1345,1347,1349,585,7,9,935,1339,1341,1340,1348,1343,1344,574],"_links":{"self":[{"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/pages\/6616"}],"collection":[{"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/comments?post=6616"}],"version-history":[{"count":6,"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/pages\/6616\/revisions"}],"predecessor-version":[{"id":29214,"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/pages\/6616\/revisions\/29214"}],"wp:attachment":[{"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/media?parent=6616"}],"wp:term":[{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/theninehertz.com\/wp-json\/wp\/v2\/yst_prominent_words?post=6616"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}

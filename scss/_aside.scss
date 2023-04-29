@@ -1,0 +1,247 @@
+/* 
+---------------------------------------------
+aside
+--------------------------------------------- 
+*/
+
+aside.default-aside {
+
+	.sidebar {
+
+		.box {
+			margin-bottom: 30px;
+			@include radius(5px);
+			padding: 20px;
+
+			.phone {
+				position: relative;
+				z-index: 3;
+				overflow: hidden;
+				margin-bottom: 30px;
+
+				i {
+					margin-bottom: 0px;
+					display: inline-block;
+					height: 26px;
+					line-height: 26px;
+					margin-right: 10px;
+					font-size: 16px;
+				}
+
+				span {
+					display: inline-block;
+					height: 26px;
+					line-height: 26px;
+					@include font($normal, 16px);
+					color: #FFFFFF;
+				}
+			}
+		}
+
+		ul {
+			@include radius(5px);
+			overflow: hidden;
+			background: #fff;
+			box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+			overflow: hidden;
+			margin-bottom: 30px;
+
+			li {
+				position: relative;
+
+				&:hover, &.active {
+
+					&:before {
+						opacity: 1;
+					}
+
+					a {
+						color: $primaryColor;
+
+						&:after {
+							color: $primaryColor;
+						}
+
+						&:hover {
+							padding-left: 60px;
+						}
+					}
+				}
+
+				&:nth-child(even) {
+					background: #F9FAFF;
+				}
+
+				&:last-child {
+					a {
+						border: none;
+					}
+				}
+	
+				&:before {
+					content: '';
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					width: 3px;
+					height: 50px;
+					background: $primaryColor;
+					opacity: 0;
+					@include transition(.3s);
+				}
+
+				a {
+					display: block;
+					height: 50px;
+					line-height: 50px;
+					padding-left: 50px;
+					position: relative;
+					@include font($normal, 14px);
+					color: $textDark;
+					letter-spacing: 0.88px;
+					@include transition(.3s);
+					position: relative;
+
+					&:hover {
+						padding-left: 70px;
+					}
+
+					&:after {
+						font-family: FontAwesome;
+    					content: "\f105";
+    					position: absolute;
+    					left: 30px;
+    					color: $headingDark;
+					}
+
+					span {
+						float: right;
+						margin-right: 30px;
+						display: inline-block;
+						background: #F0F0F0;
+						height: 20px;
+						line-height: 20px;
+						padding-left: 10px;
+						padding-right: 10px;
+						font-size: 10px;
+						color: $textDark;
+						margin-top: 18px;
+						@include radius(100px);
+					}
+				}
+			}
+		}
+
+		.download {
+			margin-bottom: 30px;
+			@include radius(5px);
+			overflow: hidden;
+			height: 50px;
+			background: #fff;
+			box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+			display: block;
+
+			.icon {
+				float: left;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				background: $primaryColor;
+
+				i {
+					display: block;
+					width: 50px;
+					height: 50px;
+					line-height: 50px;
+					font-size: 22px;
+					color: #fff;
+				}
+			}
+
+			.text {
+				float: left;
+				width: calc(100% - 50px);
+				height: 50px;
+				line-height: 50px;
+				padding-left: 20px;
+				@include font($normal, 14px);
+				letter-spacing: 0.88px;
+				color: $textDark;
+			}
+		}
+
+		.search-widget {
+			display: block;
+			margin-bottom: 30px;
+			height: 50px;
+			position: relative;
+
+			input {
+				border: 1px solid #ECF7FF;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				outline: none;
+				padding-left: 20px;
+				padding-right: 50px;
+				@include transition(.3s);
+				@include radius(5px);
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;				
+
+				&:focus {
+					border: 1px solid $primaryColor;
+					padding-left: 30px;
+				}
+			}
+
+			button {
+				position: absolute;
+				z-index: 2;
+				right: 6px;
+				top: 6px;
+				height: 37px;
+				width: 37px;
+				border: none;
+				background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+				@include radius(5px);
+				outline: none;
+				cursor: pointer;
+				text-align: center;
+				padding: 0px;
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+
+		.widget-tags {
+			box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
+			padding: 20px;
+			padding-bottom: 10px;
+			overflow: hidden;
+			@include radius(5px);
+			background: #fff;
+
+			a {
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				background: #F4F8FB;
+				padding-left: 10px;
+				padding-right: 10px;
+				@include font($normal, 14px);
+				color: $textDark;
+				@include radius(4px);
+				@include transition(.3s);
+
+				&:hover {
+					background: $primaryColor;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
