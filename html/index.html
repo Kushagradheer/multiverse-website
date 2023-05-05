@@ -34,14 +34,14 @@
         Paste the Hotjar code into the <head> of every page you wish to track visitors and collect feedback on, and then verify your installation.
     -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1977338,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1977338, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
     <!--
@@ -68,28 +68,43 @@
     </script>
 
     <!-- Google tag (gtag.js) for 1000330291 Ontario Inc. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MM5725L2V1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MM5725L2V1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MM5725L2V1');
+    </script>
+
+    <!-- Google tag (gtag.js) for 1000330291 Ontario Inc. phone number tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11161869698"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11161869698');
     </script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-MM5725L2V1');
+        gtag('config', 'AW-11161869698/SSPgCLeH6P0DEIK7ssop', {
+            'phone_conversion_number': '(226) 406-8584'
+        });
     </script>
+
 </head>
 
 <body class="home-body">
-	<!-- ***** Preloader Start ***** -->
-	<!-- The loader consumes too much time waiting for the iframes and animations to complete. For this reason, commenting it out. -->
-	<!-- <div class="loader-wrapper">
+    <!-- ***** Preloader Start ***** -->
+    <!-- The loader consumes too much time waiting for the iframes and animations to complete. For this reason, commenting it out. -->
+    <!-- <div class="loader-wrapper">
 		<div class="loader">
 			<div class="diamond"></div>
 			<div class="diamond"></div>
 			<div class="diamond"></div>
 		</div>
 	</div> -->
-	<!-- ***** Preloader End ***** -->
+    <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
@@ -120,28 +135,9 @@
                             <li><a href="blog.html">BLOG</a></li>
                             <li><a href="about-us.html">ABOUT US</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
-
-                                                   <!-- <li>Revenue Driven for our Clients
-                                                       <a href="#" class="Revenue Driven for our Clients">
-                                                           <div data-layer="4da3eb7c-42ee-44df-92d8-19656f5616a2"
-                                                                class="revenue-generated-for-client">
-                                                               <div data-layer="b2ec0365-1858-4e26-938c-76ae8eacf5d2" class="rectangle1">
-                                                                   <div data-layer="0e9ec5ac-1c72-4c25-b415-6710fa5152b1"
-                                                                        class="revenueDrivenforOurClients">Revenue generated for Clients
-                                                                   </div>
-                                                                   <div data-layer="f646399a-ca3b-4a23-b06c-615b97e4430f" class="x159a282a">$</div>
-                                                                   <div data-layer="4e5f235e-1f9e-4c54-8bff-d4d8ed5480bd" class="x2564845">
-                                                                       2,564,845
-                            &lt;!&ndash;                                            <svg data-layer="8f046b9e-cccb-4565-a1c7-0e298994f1ad"&ndash;&gt;
-                            &lt;!&ndash;                                                 preserveAspectRatio="none"&ndash;&gt;
-                            &lt;!&ndash;                                                 viewBox="0.5625 0.5625 11 11" class="iconAwesomeInfoCircle">&ndash;&gt;
-                            &lt;!&ndash;                                                <path d="M 6.062499523162842 0.5625 C 3.025146961212158 0.5625 0.5625 3.026034116744995 0.5625 6.062499523162842 C 0.5625 9.100740432739258 3.025146961212158 11.56250095367432 6.062499523162842 11.56250095367432 C 9.099852561950684 11.56250095367432 11.56250095367432 9.100740432739258 11.56250095367432 6.062499523162842 C 11.56250095367432 3.026034116744995 9.099852561950684 0.5625 6.062499523162842 0.5625 Z M 6.062499523162842 3.002016067504883 C 6.576927185058594 3.002016067504883 6.993951320648193 3.419040203094482 6.993951320648193 3.933467626571655 C 6.993951320648193 4.447895526885986 6.576927185058594 4.864919185638428 6.062499523162842 4.864919185638428 C 5.548072814941406 4.864919185638428 5.131048202514648 4.447895526885986 5.131048202514648 3.933467626571655 C 5.131048202514648 3.419040203094482 5.548072814941406 3.002016067504883 6.062499523162842 3.002016067504883 Z M 7.304435253143311 8.63508129119873 C 7.304435253143311 8.782051086425781 7.185276508331299 8.901209831237793 7.03830623626709 8.901209831237793 L 5.086693286895752 8.901209831237793 C 4.939723968505859 8.901209831237793 4.820564270019531 8.782051086425781 4.820564270019531 8.63508129119873 L 4.820564270019531 8.102822303771973 C 4.820564270019531 7.955852508544922 4.939723968505859 7.83669376373291 5.086693286895752 7.83669376373291 L 5.352822780609131 7.83669376373291 L 5.352822780609131 6.417338848114014 L 5.086693286895752 6.417338848114014 C 4.939723968505859 6.417338848114014 4.820564270019531 6.298179626464844 4.820564270019531 6.151209354400635 L 4.820564270019531 5.618951797485352 C 4.820564270019531 5.471981525421143 4.939723968505859 5.352822780609131 5.086693286895752 5.352822780609131 L 6.50604772567749 5.352822780609131 C 6.653017997741699 5.352822780609131 6.772177219390869 5.471981525421143 6.772177219390869 5.618951797485352 L 6.772177219390869 7.83669376373291 L 7.03830623626709 7.83669376373291 C 7.185276508331299 7.83669376373291 7.304435253143311 7.955852508544922 7.304435253143311 8.102822303771973 L 7.304435253143311 8.63508129119873 Z"/>&ndash;&gt;
-                            &lt;!&ndash;                                            </svg>&ndash;&gt;
-                                                                   </div>
-                                                               </div>
-                                                           </div>
-                                                       </a>
-                                                   </li> -->
+                            <li><a class="btn-secondary-white-block" href="tel:2264068584" onClick="gtag('config', 'AW-11161869698/SSPgCLeH6P0DEIK7ssop', {
+                            'phone_conversion_number': '(226) 406-8584'
+                          })" style="width:120px;"><i class="fa fa-phone "></i> Call us!</a></li>
                         </ul>
 
                         <a class="menu-trigger">
@@ -173,11 +169,13 @@
                     <div class="col-lg-4">
                         <div class="text-content">
                             <h1>Multiverse Software - Your App Development Partner</h1><br />
-                            <h3 style="color: white"></h3
-                            <h4 style="color:white"></h4>
-                            <p>We, as a trusted mobile development agency aim to create ambitious digital products that drive your bottom line and connect meaningfully to the users.</p>
-                                <!-- open link in new tab -->
-                            <a class="btn-secondary-white-block" href="https://calendly.com/supp-multiverseapp/30min" target="_blank">BOOK FREE CONSULTATION</a>
+                            <h3 style="color: white"></h3 <h4 style="color:white">
+                            </h4>
+                            <p>We, as a trusted mobile development agency aim to create ambitious digital products that
+                                drive your bottom line and connect meaningfully to the users.</p>
+                            <!-- open link in new tab -->
+                            <a class="btn-secondary-white-block" href="https://calendly.com/supp-multiverseapp/30min"
+                                target="_blank">BOOK FREE CONSULTATION</a>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -206,8 +204,7 @@
                                     <li><i class="fa fa-star active"></i></li>
                                     <li><i class="fa fa-star active"></i></li>
                                     <li><i class="fa fa-star active"></i></li>
-                                    <li><i class="fa fa-star active"></i></li 
-                                    <li><i class="fa fa-star active"></i></li>
+                                    <li><i class="fa fa-star active"></i></li <li><i class="fa fa-star active"></i></li>
                                     <li>(38,103)</li>
                                 </ul>
                             </div>
@@ -302,7 +299,10 @@
                         <h2 class="section-title">Conceptualization to Deployment</h2>
                     </div>
                     <div class="left-text">
-                        <p class="dark">We offer a wide range of services, including mobile development, web development, product design, and social media marketing. Our experienced developers for hire work closely with clients to create functional and visually stunning mobile applications that drive business growth and success.</p>
+                        <p class="dark">We offer a wide range of services, including mobile development, web
+                            development, product design, and social media marketing. Our experienced developers for hire
+                            work closely with clients to create functional and visually stunning mobile applications
+                            that drive business growth and success.</p>
                     </div>
                     <a href="services.html" class="btn-secondary-block">SEE SERVICES</a>
                 </div>
@@ -316,13 +316,16 @@
                                 data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                                 <i class="fa fa-clone"></i>
                                 <h5 class="services-title">Mobile App development</h5>
-                                <p>Expert mobile app development services from design to support. Custom-built or code-takeover projects.</p>
+                                <p>Expert mobile app development services from design to support. Custom-built or
+                                    code-takeover projects.</p>
                             </a>
                             <a href="services.html" class="home-services-item"
                                 data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                                 <i class="fa fa-connectdevelop"></i>
                                 <h5 class="services-title">Web Development</h5>
-                                <p>Our web development process involves designing, building, and maintaining websites for the internet or intranet. We make sure to take care of front-end and back-end development, web design, and web content management.</p>
+                                <p>Our web development process involves designing, building, and maintaining websites
+                                    for the internet or intranet. We make sure to take care of front-end and back-end
+                                    development, web design, and web content management.</p>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -330,13 +333,16 @@
                                 data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                                 <i class="fa fa-object-ungroup"></i>
                                 <h5 class="services-title">User Experience & Design</h5>
-                                <p>Our designers create an engaging and satisfying user experience that aligns with business objectives.</p>
+                                <p>Our designers create an engaging and satisfying user experience that aligns with
+                                    business objectives.</p>
                             </a>
                             <a href="services.html" class="home-services-item"
                                 data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                                 <i class="fa fa-line-chart"></i>
                                 <h5 class="services-title">Social Media Marketing</h5>
-                                <p>We boost online visibility, engage the target audience, and drive sales through personalized social media strategies. Our experts create content, manage accounts, and run ads on major platforms like Facebook, Twitter, Instagram, and LinkedIn.</p>
+                                <p>We boost online visibility, engage the target audience, and drive sales through
+                                    personalized social media strategies. Our experts create content, manage accounts,
+                                    and run ads on major platforms like Facebook, Twitter, Instagram, and LinkedIn.</p>
                             </a>
                         </div>
                     </div>
@@ -372,7 +378,9 @@
                             </div>
                             <div class="text">
                                 <h5 class="title">Listening to you</h5>
-                                <p>We start by understanding your unique business needs and goals. Our team works with you to develop a comprehensive plan that outlines the software development process from start to finish, including timelines, milestones, and deliverables.</p>
+                                <p>We start by understanding your unique business needs and goals. Our team works with
+                                    you to develop a comprehensive plan that outlines the software development process
+                                    from start to finish, including timelines, milestones, and deliverables.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
@@ -383,7 +391,9 @@
                             </div>
                             <div class="text">
                                 <h5 class="title">Designing with user in mind</h5>
-                                <p>Once the plan is in place, we move on to the design phase. Our design team creates detailed user experiences of the software's user interface and functionality and ensures that they meet the requirements.</p>
+                                <p>Once the plan is in place, we move on to the design phase. Our design team creates
+                                    detailed user experiences of the software's user interface and functionality and
+                                    ensures that they meet the requirements.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
@@ -394,7 +404,8 @@
                             </div>
                             <div class="text">
                                 <h5 class="title">Turning ideas to reality in iteration</h5>
-                                <p>After that, our team of developers writes clean and efficient code, following best practices and adhering to industry standards.</p>
+                                <p>After that, our team of developers writes clean and efficient code, following best
+                                    practices and adhering to industry standards.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.5s">
@@ -405,7 +416,10 @@
                             </div>
                             <div class="text">
                                 <h5 class="title">Publish to app stores</h5>
-                                <p>Once the software is developed, we rigorously test it for bugs, errors, and other issues, make any necessary adjustments and deploy the software to your servers or to the cloud. We ensure that the deployment process is seamless and that the software is running smoothly.</p>
+                                <p>Once the software is developed, we rigorously test it for bugs, errors, and other
+                                    issues, make any necessary adjustments and deploy the software to your servers or to
+                                    the cloud. We ensure that the deployment process is seamless and that the software
+                                    is running smoothly.</p>
                             </div>
                         </li>
                     </ul>
@@ -623,7 +637,8 @@
                         <div class="post-content">
                             <div class="date">5 Aug, 2021</div>
                             <h3>
-                                <a href="articles/meditation-app-ui-case-study/meditation-app-ui-case-study.html">Breathing and
+                                <a href="articles/meditation-app-ui-case-study/meditation-app-ui-case-study.html">Breathing
+                                    and
                                     Meditation app — UI Case Study</a>
                             </h3>
                             <div class="text">
@@ -662,8 +677,8 @@
                         <div class="post-content">
                             <div class="date">11 Mar, 2022</div>
                             <h3>
-                                <a
-                                    href="https://medium.com/design-bootcamp/redesigning-ux-of-job-portal-f9cec0212ab8">Redesigning UX of job portal
+                                <a href="https://medium.com/design-bootcamp/redesigning-ux-of-job-portal-f9cec0212ab8">Redesigning
+                                    UX of job portal
                                 </a>
                             </h3>
                             <div class="text">
@@ -686,7 +701,8 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <img src="assets/images/logo.png" class="logo" alt="logo">
-                    <div class="text">As a leading mobile development agency in Canada and United States, we understand the importance of seamless digital experiences for your application.
+                    <div class="text">As a leading mobile development agency in Canada and United States, we understand
+                        the importance of seamless digital experiences for your application.
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 col-6">
@@ -695,7 +711,8 @@
                         <li><a href="our-apps.html"><i class="fa fa-angle-right"></i><span>Our Apps</span></a></li>
                         <li><a href="client-apps.html"><i class="fa fa-angle-right"></i><span>Client's Apps</span></a>
                         </li>
-                        <li><a href="ready-to-sell.html"><i class="fa fa-angle-right"></i><span>Code templates</span></a></li>
+                        <li><a href="ready-to-sell.html"><i class="fa fa-angle-right"></i><span>Code
+                                    templates</span></a></li>
                         <li><a href="services.html"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
                         <li><a href="blog.html"><i class="fa fa-angle-right"></i><span>Blog</span></a></li>
                         <li><a href="about-us.html"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
@@ -708,7 +725,8 @@
                         <li><a href="apps/app-extreme.html"><i class="fa fa-angle-right"></i><span>Extreme</span></a>
                         </li>
                         <li><a href="apps/app-friday.html"><i class="fa fa-angle-right"></i><span>Friday</span></a></li>
-                        <li><a href="apps/app-healstation.html"><i class="fa fa-angle-right"></i><span>Heal Station</span></a></li>
+                        <li><a href="apps/app-healstation.html"><i class="fa fa-angle-right"></i><span>Heal
+                                    Station</span></a></li>
                         <li><a href="apps/app-tempo.html"><i class="fa fa-angle-right"></i><span>Tempo</span></a></li>
                     </ul>
                 </div>

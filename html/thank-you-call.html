@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- 
+	This page is a thank you page where the user is redirected after they click call
+	The redirection is necessary because Google Tag Manager is added to this page to track the conversions
+-->
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,81 +28,77 @@
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 
-	<!--
+    <!--
         Hotjar Tracking Code for https://multiverseapp.com
         Paste the Hotjar code into the <head> of every page you wish to track visitors and collect feedback on, and then verify your installation.
     -->
-	<script>
-		(function (h, o, t, j, a, r) {
-			h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-			h._hjSettings = { hjid: 1977338, hjsv: 6 };
-			a = o.getElementsByTagName('head')[0];
-			r = o.createElement('script'); r.async = 1;
-			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-	</script>
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1977338, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
 
-	<!--
+    <!--
         collect.chat chatbot script
     -->
-	<script>(function (w, d) {
-			w.CollectId = "5f54662bf97dde4f05ac5af1";
-			var h = d.head || d.getElementsByTagName("head")[0];
-			var s = d.createElement("script");
-			s.setAttribute("type", "text/javascript");
-			s.async = true;
-			s.setAttribute("src", "https://collectcdn.com/launcher.js");
-			h.appendChild(s);
-		})(window, document);</script>
+    <script>(function (w, d) {
+            w.CollectId = "5f54662bf97dde4f05ac5af1";
+            var h = d.head || d.getElementsByTagName("head")[0];
+            var s = d.createElement("script");
+            s.setAttribute("type", "text/javascript");
+            s.async = true;
+            s.setAttribute("src", "https://collectcdn.com/launcher.js");
+            h.appendChild(s);
+        })(window, document);</script>
 
-	<!-- Global site tag (gtag.js) for supp.multiverseapp@gmail.com -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7YMZPDZJQ"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <!-- Global site tag (gtag.js) for supp.multiverseapp@gmail.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7YMZPDZJQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		gtag('config', 'G-Z7YMZPDZJQ');
-	</script>
+        gtag('config', 'G-Z7YMZPDZJQ');
+    </script>
 
-	<!-- Google tag (gtag.js) for 1000330291 Ontario Inc. -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MM5725L2V1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <!-- Google tag (gtag.js) for 1000330291 Ontario Inc. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MM5725L2V1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		gtag('config', 'G-MM5725L2V1');
-	</script>
+        gtag('config', 'G-MM5725L2V1');
+    </script>
+	    
+    <!-- Google tag (gtag.js) for 1000330291 Ontario Inc. phone number tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11161869698"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-	<!-- 
-		This script is a backup code in sale the onClick in the tel: does not work below.
-		In the case the script below is deleted, do not forget to delete thank-you-call.html as well.
-	 -->
-	<!-- <script>
-		// Redirect to a thank you page, and then make the call
-		function makeCall() {
-			window.open('thank-you-call.html', '_blank');
-			window.open('tel:2264068584', '_parent');
-		}
-	</script> -->
+        gtag('config', 'AW-11161869698');
+    </script>
+    <script>
+        gtag('config', 'AW-11161869698/SSPgCLeH6P0DEIK7ssop', {
+          'phone_conversion_number': '(226) 406-8584'
+        });
+      </script>
+	  
 
+    <!-- Event snippet for Submit the contact form conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-11161869698/ttKnCLDToZwYEIK7ssop' });
+    </script>
 </head>
 
 <body>
-
-	<!-- ***** Preloader Start ***** -->
-	<!-- The loader consumes too much time waiting for the iframes and animations to complete. For this reason, commenting it out. -->
-	<!-- <div class="loader-wrapper">
-		<div class="loader">
-			<div class="diamond"></div>
-			<div class="diamond"></div>
-			<div class="diamond"></div>
-		</div>
-	</div> -->
-	<!-- ***** Preloader End ***** -->
-
 	<!-- ***** Header Area Start ***** -->
 	<header class="header-area header-white header-sticky">
 
@@ -149,7 +149,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-							<h1>Contact Us</h1>
+							<h1>Thank for the call!</h1>
 						</div>
 						<div class="col-lg-12 text-center">
 							<ol class="breadcrumb">
@@ -167,97 +167,9 @@
 		<div class="page-bottom">
 			<div class="container">
 
-
-				<!-- ***** Google Maps Start ***** -->
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="map-wrapper">
-							<!-- ***** Google Maps Start ***** -->
-							<!-- hide Google Maps for now -->
-							<!-- <div class="map-canvas" data-zoom="12" data-lat="23.0133337" data-lng="72.5179165" data-type="roadmap"
-								data-hue="#ffc400" data-title="Multiverse Software" data-icon-path="assets/images/marker.png"
-								data-content="407, Neelkanth Palace<br>Near Seema Hall, 100 Ft Prahlad Nagar road, Ahmedabad 380051<br><br><a href='mailto:support@multiverseapp.com'>support@multiverseapp.com</a>">
-							</div> -->
-							<!-- ***** Google Maps End ***** -->
-
-							<!-- ***** Contact Information Start ***** -->
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										<div class="contact-info">
-											<div class="row">
-												<div class="col-lg-4 col-md-4 col-sm-12">
-													<div class="item">
-														<i class="fa fa-phone"></i>
-														<div class="txt">
-															<span><a style="color:'white;'" href="tel:2264068584"
-																	onClick="gtag('config', 'AW-11161869698/SSPgCLeH6P0DEIK7ssop', {
-																'phone_conversion_number': '(226) 406-8584'
-															  })">(226) 406-8584</a></span><br>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-4 col-md-4 col-sm-12">
-													<div class="item">
-														<i class="fa fa-envelope"></i>
-														<div class="txt">
-															<span>
-																<a
-																	href="mailto:support@multiverseapp.com">support@multiverseapp.com</a><br>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-4 col-md-4 col-sm-12">
-													<div class="item">
-
-														<i class="fa fa-location-arrow"></i>
-														<div class="txt">
-															<span>Toronto, Canada</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- ***** Contact Information End ***** -->
-						</div>
-						<!-- ***** Contact Image Start ***** -->
-					</div>
-				</div>
-				<!-- ***** Google Maps Start ***** -->
-
-				<!-- ***** Contact Section Start ***** -->
-				<h5>We'd love to work with you!</h5>
-				<div class="contact-text">
-					<p>If you're looking for a reliable and experienced mobile development agency in Canada, look no
-						further than our team. Contact us today to learn more about how we can help you achieve your
-						business goals through our developers for hire and mobile development services.</p></br>
-				</div>
-				<!-- ***** Contact Section End ***** -->
-
-
-				<!-- Calendly start -->
-				<section class="section pbottom-80">
-					<h5>Would you like to schedule a free consultation?</h5>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="calendly-inline-widget"
-								data-url="https://calendly.com/supp-multiverseapp/30min?hide_event_type_details=1&hide_gdpr_banner=1"
-								style="min-width:320px;height:750px;width:auto;"></div>
-							<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
-								async></script>
-						</div>
-					</div>
-				</section>
-				<!-- Calendly end -->
-
-
 				<!-- ***** Contact Form Start ***** -->
 				<section class="section pbottom-80">
-					<h5>Or, send us a message!</h5>
+					<h5>We your query wasn't resolved at this time, send us a message!</h5>
 					<div class="row">
 						<div class="col-lg-5 col-md-8">
 							<div class="form">
@@ -323,6 +235,12 @@
 		</div>
 		<!-- ***** Page Content End ***** -->
 	</section>
+
+
+
+
+
+
 
 
 
