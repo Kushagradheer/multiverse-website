@@ -163,7 +163,7 @@
                 // Parallax init
                 if($('.parallax').length){
                     $('.parallax').parallax({
-                        imageSrc: 'assets/images/photos/parallax.jpg',
+                        imageSrc: 'assets/images/photos/parallax.webp',
                         zIndex: '1'
                     });
                 }

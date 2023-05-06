@@ -19,21 +19,6 @@
 	<!-- Custom CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
-	<!--
-		Hotjar Tracking Code for https://multiverseapp.com
-		Paste the Hotjar code into the <head> of every page you wish to track visitors and collect feedback on, and then verify your installation.
-	-->
-	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:1977338,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7YMZPDZJQ"></script>
     <script>
@@ -47,13 +32,14 @@
 <body>
 
 	<!-- ***** Preloader Start ***** -->
-	<div class="loader-wrapper">
+	<!-- The loader consumes too much time waiting for the iframes and animations to complete. For this reason, commenting it out. -->
+	<!-- <div class="loader-wrapper">
 		<div class="loader">
 			<div class="diamond"></div>
 			<div class="diamond"></div>
 			<div class="diamond"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- ***** Preloader End ***** -->
 
 	<!-- ***** Header Area Start ***** -->
@@ -100,7 +86,7 @@
 
 	<section class="page">
 		<!-- ***** Page Top Start ***** -->
-		<div class="cover" data-image="assets/images/photos/parallax.jpg">
+		<div class="cover" data-image="assets/images/photos/parallax.webp">
 			<div class="page-top">
 				<div class="container">
 					<div class="row">
